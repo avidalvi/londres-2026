@@ -1,0 +1,2253 @@
+{
+  "trip_title": "Guía & Itinerario Londres 2026",
+  "trip_dates": "9 al 13 de Octubre de 2026",
+  "days": [
+    {
+      "day_number": 1,
+      "date_label": "Sábado, 10 de Octubre",
+      "title": "La City, Arte en el Río, Torre de Londres y Shoreditch",
+      "subtitle": "Miradores en las nubes, la pasarela de Harry Potter, comida en Borough Market y la gran fortaleza medieval.",
+      "color": "#D84315",
+      "accent": "orange",
+      "badge": "Día 1 · Sábado",
+      "highlights": [
+        "Horizon 22 (P58)",
+        "Tate Modern",
+        "Borough Market",
+        "Torre de Londres"
+      ],
+      "stops": [
+        {
+          "id": "d1-s1",
+          "stop_number": 1,
+          "catalog_id": "36",
+          "name": "Horizon 22 (Planta 58 — Nivel 254 m)",
+          "category": "Mirador",
+          "icon": "building",
+          "time_window": "10:00 – 10:45",
+          "duration": "45 min",
+          "coords": [
+            51.5145,
+            -0.083
+          ],
+          "description": "El mirador público gratuito más alto de Europa, ubicado en el rascacielos 22 Bishopsgate. Ascensor de alta velocidad en 41 segundos hasta la planta 58 con ventanales de 300° sobre The Shard, Tower Bridge y San Pablo.",
+          "hack": "Entrada gratuita con reserva previa. El control de seguridad es tipo aeropuerto; mochila ligera recomendada para pasar sin demoras.",
+          "image": "images/d1-s1.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5145,-0.083&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5145,-0.083&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "3 min",
+            "distance": "250 m",
+            "instructions": "Bajar en el ascensor panorámico, cruzar Bishopsgate hacia Gracechurch Street y entrar por Bull's Head Passage al corazón victoriano del mercado.",
+            "to_stop_name": "Leadenhall Market",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5145,-0.083&destination=51.5126,-0.0834&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://horizon22.co.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/22_Bishopsgate",
+            "opening_hours": "Lun-Vie: 10:00–18:00 | Sáb: 10:00–17:00 | Dom: 10:00–16:00",
+            "admission": "Gratuito (Reserva previa online obligatoria)",
+            "metro_station": "Liverpool Street (Central, Circle, Elizabeth Line) / Bank (Central, Northern)",
+            "address": "22 Bishopsgate, London EC2N 4BQ",
+            "curiosities": "Con 254 metros de altura en la planta 58 del rascacielos 22 Bishopsgate, es el mirador público gratuito más alto de toda Europa, superando por 10 metros la plataforma de The Shard. El ascensor panorámico de alta velocidad asciende las 58 plantas en apenas 41 segundos a 8 metros por segundo.",
+            "practical_tips": "El control de seguridad en planta baja es riguroso (estilo aeropuerto): llevad mochila ligera y evitad botellas de vidrio o líquidos de más de 100 ml. Los mejores ángulos fotográficos hacia Tower Bridge y The Shard están en el ventanal del ala este."
+          }
+        },
+        {
+          "id": "d1-s2",
+          "stop_number": 2,
+          "catalog_id": "18",
+          "name": "Leadenhall Market",
+          "category": "Harry Potter & Arquitectura",
+          "icon": "sparkles",
+          "time_window": "10:45 – 11:05",
+          "duration": "20 min",
+          "coords": [
+            51.5126,
+            -0.0834
+          ],
+          "description": "Mercado victoriano de 1881 con cúpula de hierro forjado pintada en granate y dorado. Utilizado en 'Harry Potter y la Piedra Filosofal' como el Callejón Diagon original y la entrada al Caldero Chorreante en Bull's Head Passage.",
+          "hack": "En Bull's Head Passage nº 42 encontraréis la fachada azul de la óptica que sirvió de puerta de entrada al pub de los magos.",
+          "image": "images/d1-s2.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 1,
+            "title": "Leadenhall Market y el Callejón Diagon de Harry Potter"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5126,-0.0834&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5126,-0.0834&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "10 min",
+            "distance": "900 m",
+            "instructions": "Paseo hacia el oeste por Cornhill y Cheapside cruzando el centro financiero de The City directamente hacia los jardines de St Paul's Churchyard y el pórtico oeste de la Catedral de San Pablo.",
+            "to_stop_name": "Catedral de San Pablo (St Paul's)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5126,-0.0834&destination=51.5138,-0.0984&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://leadenhallmarket.co.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Leadenhall_Market",
+            "opening_hours": "Pasaje público abierto 24/7 (Comercios y cafeterías: 10:00–18:00)",
+            "admission": "Acceso libre y gratuito",
+            "metro_station": "Monument (District, Circle) / Bank (Central, Northern, DLR) / Liverpool Street",
+            "address": "Gracechurch Street, London EC3V 1LT",
+            "curiosities": "Mercado cubierto victoriano diseñado por Sir Horace Jones en 1881 sobre un antiguo foro romano del siglo I. En 'Harry Potter y la Piedra Filosofal' sirvió de escenario real para el Callejón Diagon. En Bull's Head Passage nº 42, la fachada azul de la óptica 'The Glass House' fue la puerta de entrada a El Caldero Chorreante.",
+            "practical_tips": "Mirad hacia arriba para contemplar el artesonado victoriano de hierro forjado pintado en granate, crema y dorado. Muy tranquilo y fotogénico en fin de semana al descansar el distrito financiero de la City."
+          }
+        },
+        {
+          "id": "d1-s3",
+          "stop_number": 3,
+          "catalog_id": "17",
+          "name": "Catedral de San Pablo (St Paul's)",
+          "category": "Monumento Histórico",
+          "icon": "landmark",
+          "time_window": "11:05 – 11:35",
+          "duration": "30 min",
+          "coords": [
+            51.5138,
+            -0.0984
+          ],
+          "description": "Obra cumbre del barroco inglés diseñada por Sir Christopher Wren tras el Gran Incendio de 1666. Recorrido exterior por la imponente fachada oeste, pórtico de dos niveles, estatua de la Reina Ana y jardines de St Paul's Churchyard.",
+          "hack": "Paseo exterior libre de coste. Los bancos del Churchyard ofrecen sombra bajo los tilos y el mejor encuadre fotográfico de la fachada monumental sin coste de entrada.",
+          "image": "images/d1-s3.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 2,
+            "title": "Catedral de San Pablo: Fachada Barroca, el Gran Incendio y el Milagro del Blitz"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5138,-0.0984&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5138,-0.0984&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "350 m",
+            "instructions": "Descender en línea recta por la calle peatonal Peter's Hill hacia la orilla del Támesis. Perspectiva frontal espectacular hacia la pasarela y el Tate Modern.",
+            "to_stop_name": "Millennium Bridge",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5138,-0.0984&destination=51.5095,-0.0985&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.stpauls.co.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Catedral_de_San_Pablo_de_Londres",
+            "opening_hours": "Exterior y jardines 24/7 | Visitas turísticas interiores: Lun-Sáb 08:30–16:30",
+            "admission": "Recorrido exterior y jardines 100% gratuitos | Interior turístico £25 (Choral Evensong gratuito a las 17:00)",
+            "metro_station": "St Paul's (Central line) / Blackfriars (District, Circle) / Mansion House",
+            "address": "St. Paul's Churchyard, London EC4M 8AD",
+            "curiosities": "La obra maestra barroca de Sir Christopher Wren construida tras el Gran Incendio de 1666. Su cúpula de 111 metros fue el edificio más alto de Londres hasta 1963. Acogió la boda real del Príncipe Carlos y Lady Diana Spencer en 1981 y los funerales de Winston Churchill y Horatio Nelson. Durante el Blitz de 1940 sobrevivió milagrosamente a más de 100.000 bombas incendiarias.",
+            "practical_tips": "Los jardines de St Paul's Churchyard frente a la fachada oeste ofrecen bancos a la sombra y el mejor ángulo fotográfico exterior. No es necesario pagar entrada interior para disfrutar de su arquitectura exterior y la gran escalinata."
+          }
+        },
+        {
+          "id": "d1-s4",
+          "stop_number": 4,
+          "catalog_id": "16",
+          "name": "Millennium Bridge",
+          "category": "Harry Potter & Paseo",
+          "icon": "footprints",
+          "time_window": "11:35 – 11:55",
+          "duration": "20 min",
+          "coords": [
+            51.5095,
+            -0.0985
+          ],
+          "description": "Pasarela colgante peatonal de acero diseñada por Norman Foster y Anthony Caro que conecta la City con Bankside. Famosa por la escena inicial de 'El Misterio del Príncipe' donde es retorcida y destruida por los Mortífagos.",
+          "hack": "Al caminar hacia el sur mirando al frente, el Tate Modern enmarca el río; al girarse hacia atrás, San Pablo queda perfectamente alineada en el eje visual.",
+          "image": "images/d1-s4.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 3,
+            "title": "El Puente Tambaleante (Millennium Bridge)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5095,-0.0985&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5095,-0.0985&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "3 min",
+            "distance": "200 m",
+            "instructions": "Cruzar a pie la pasarela sobre las aguas del río directamente hacia la gran rampa de acceso a la Sala de Turbinas (Turbine Hall) de Tate Modern.",
+            "to_stop_name": "Tate Modern (Museo Nacional de Arte Moderno)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5095,-0.0985&destination=51.5076,-0.0994&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.cityoflondon.gov.uk/things-to-do/walks/millennium-bridge",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Puente_del_Milenio_(Londres)",
+            "opening_hours": "Abierto 24 horas al día, 365 días al año",
+            "admission": "Acceso peatonal libre y gratuito",
+            "metro_station": "Blackfriars (District, Circle) / St Paul's (Central line)",
+            "address": "Thames Embankment, London EC4V 3QR",
+            "curiosities": "Pasarela colgante de acero inaugurada en el año 2000 obra de Norman Foster y el escultor Anthony Caro. Se ganó el apodo de 'Wobbly Bridge' por su balanceo inicial que obligó a cerrarlo para instalar 91 amortiguadores. En 'Harry Potter y el Misterio del Príncipe' es retorcido y destruido por los Mortífagos.",
+            "practical_tips": "Caminad mirando al frente para disfrutar de la fachada de la antigua central de Tate Modern y daos la vuelta a mitad del río para capturar la postal clásica de San Pablo enmarcada entre los cables de acero del puente."
+          }
+        },
+        {
+          "id": "d1-s5",
+          "stop_number": 5,
+          "catalog_id": "4",
+          "name": "Tate Modern (Museo Nacional de Arte Moderno)",
+          "category": "Museo Mayor",
+          "icon": "palette",
+          "time_window": "11:55 – 12:45",
+          "duration": "50 min",
+          "coords": [
+            51.5076,
+            -0.0994
+          ],
+          "description": "Ubicado en la antigua central eléctrica de Bankside. La colosal Sala de Turbinas (Turbine Hall) impresiona por su escala monumental. Alberga obras maestras de Picasso, Dalí, Warhol y los sobrecogedores murales Seagram de Mark Rothko.",
+          "hack": "Entrada gratuita a las colecciones permanentes. Subid al mirador de la planta 10 del Edificio Blavatnik para contemplar el Támesis.",
+          "image": "images/d1-s5.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 4,
+            "title": "Tate Modern: Colección Maestra y Obras Imprescindibles (Pistas 4 a 9)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5076,-0.0994&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5076,-0.0994&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "10 min",
+            "distance": "800 m",
+            "instructions": "Paseo agradable hacia el este por la orilla sur (Bankside) pasando frente a Shakespeare's Globe y Clink Street hasta desembocar en Stoney Street.",
+            "to_stop_name": "Borough Market",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5076,-0.0994&destination=51.5055,-0.0905&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.tate.org.uk/visit/tate-modern",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Tate_Modern",
+            "opening_hours": "Diario: 10:00–18:00 (Colección permanente 100% gratuita)",
+            "admission": "Gratuito (Acceso libre a colecciones permanentes y mirador Blavatnik)",
+            "metro_station": "Blackfriars (District, Circle) / Southwark (Jubilee line)",
+            "address": "Bankside, London SE1 9TG",
+            "curiosities": "Ubicado en la imponente central eléctrica de Bankside de Sir Giles Gilbert Scott. Dispone de 6 pistas en la audioguía: la descomunal Sala de Turbinas (152 m), el mirador gratuito de la planta 10 del Blavatnik Building, obras cumbre del siglo XX como 'La mujer que llora' de Picasso, 'La metamorfosis de Narciso' y el 'Teléfono langosta' de Dalí, el 'Díptico de Marilyn' de Andy Warhol, 'Whaam!' de Roy Lichtenstein, 'El caracol' de Henri Matisse, 'La Fuente' de Marcel Duchamp y los sobrecogedores murales Seagram de Mark Rothko.",
+            "practical_tips": "Recorrido maestro en 50 min: entrad por la rampa de la Turbine Hall, subid en ascensor exprés al mirador de la planta 10 para fotos de la cúpula de San Pablo, y bajad al Nivel 2 del Natalie Bell Building para admirar Picasso, Dalí, Warhol y la sala en penumbra de Rothko."
+          }
+        },
+        {
+          "id": "d1-s6",
+          "stop_number": 6,
+          "catalog_id": "19",
+          "name": "Borough Market",
+          "category": "Gastronomía & Mercado",
+          "icon": "utensils",
+          "time_window": "12:45 – 13:45",
+          "duration": "1h",
+          "coords": [
+            51.5055,
+            -0.0905
+          ],
+          "description": "El mercado de alimentos más antiguo y vibrante de Londres (más de 1.000 años de historia). Puestos callejeros de comida gourmet de todo el mundo: scotch eggs, paellas gigantes, pasta fresca en rueda de parmesano y donuts artesanos de Bread Ahead.",
+          "hack": "Llegar a las 12:45 es la hora dorada antes de la gran afluencia de las 13:30. Buscad el arco del ferrocarril en Stoney Street donde aparca el Autobús Noctámbulo de Harry Potter.",
+          "image": "images/d1-s6.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 10,
+            "title": "Borough Market y los Rincones de Cine de Southwark"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5055,-0.0905&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5055,-0.0905&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "lunch",
+            "type_label": "Almuerzo / Comida",
+            "title": "Borough Market & Bankside",
+            "time_window": "12:45 – 13:45 h",
+            "notes": "Llegar a las 12:45 h es el hack perfecto para evitar las colas masivas de las 13:30 h. Pedid siempre 'Tap water, please' (agua de grifo gratuita por ley).",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "The Black Pig & Kappacasein",
+                "category": "🥘 Típica de Mercado",
+                "location": "Borough Market (Stoney St / Green Market)",
+                "rating": "4.7 ★",
+                "highlight_dish": "Bocadillo de ciabatta de cerdo asado a baja temperatura con compota de manzana y mayonesa de trufa (The Black Pig, ~£11) o sándwich tostado de queso suizo con puerros (Kappacasein, ~£9). Postre: donuts artesanos de Bread Ahead (~£4.50).",
+                "price_range": "£13 – £16 / pers (£39 – £48 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Black+Pig+Borough+Market+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "The George Inn",
+                "category": "🇬🇧 Pub Histórico / Tradicional",
+                "location": "75 Borough High St (a 3 min a pie)",
+                "rating": "4.4 ★",
+                "highlight_dish": "Única posada de postas del s. XVII con galerías de madera que sobrevive en Londres (National Trust; aquí comían Dickens y Shakespeare). Fish & Chips crujiente con puré de guisantes, pastel Steak & Ale Pie o Sausage & Mash con gravy.",
+                "price_range": "£18 – £24 / pers (£54 – £72 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+George+Inn+75+Borough+High+St+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "Padella",
+                "category": "🇮🇹 Pasta Fresca Artesana",
+                "location": "6 Southwark St (a la entrada del mercado)",
+                "rating": "4.5 ★",
+                "highlight_dish": "Templo de la pasta fresca estirada a mano cada mañana. Pici cacio e pepe (£10.50), pappardelle con ragú de buey estofado 8 horas (£14) y focaccia casera con aceite de Liguria. Llegar sobre las 12:45 h para evitar cola prolongada.",
+                "price_range": "£15 – £20 / pers (£45 – £60 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Padella+6+Southwark+St+London"
+              }
+            ]
+          },
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "6 min",
+            "distance": "500 m",
+            "instructions": "Continuar por The Queen's Walk junto a la orilla del Támesis pasando bajo London Bridge hasta la barandilla con vistas al buque HMS Belfast y The Shard.",
+            "to_stop_name": "HMS Belfast & Paseo Fluvial",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5055,-0.0905&destination=51.5066,-0.0814&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://boroughmarket.org.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Borough_Market",
+            "opening_hours": "Mié-Vie: 10:00–17:00 | Sáb: 09:00–17:00 | Dom: 10:00–16:00",
+            "admission": "Acceso libre gratuito",
+            "metro_station": "London Bridge (Jubilee, Northern lines)",
+            "address": "8 Southwark Street, London SE1 1TL",
+            "curiosities": "El mercado de alimentos más antiguo de Londres con más de 1.000 años de historia bajo los puentes del ferrocarril. En Stoney Street se rodaron escenas de 'Harry Potter y el Prisionero de Azkaban' (parada del Autobús Noctámbulo) y 'El Diario de Bridget Jones'.",
+            "practical_tips": "Nuestra llegada a las 12:45 h es ideal para evitar la gran avalancha de las 13:30 h. No os perdáis los donuts artesanos de Bread Ahead ni los sándwiches de queso fundido de Kappacasein."
+          }
+        },
+        {
+          "id": "d1-s7",
+          "stop_number": 7,
+          "catalog_id": "31",
+          "name": "HMS Belfast & Paseo Fluvial",
+          "category": "Historia Naval & Paseo",
+          "icon": "anchor",
+          "time_window": "13:45 – 14:05",
+          "duration": "20 min",
+          "coords": [
+            51.5066,
+            -0.0814
+          ],
+          "description": "Histórico crucero ligero de la Royal Navy que combatió en el Desembarco de Normandía (D-Day) y en la Guerra de Corea, anclado permanentemente en el Támesis con el perfil de City Hall y The Shard de fondo.",
+          "hack": "El paseo peatonal Queen's Walk junto a la orilla del río ofrece excelentes perspectivas fotográficas sin necesidad de acceder al interior.",
+          "image": "images/d1-s7.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5066,-0.0814&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5066,-0.0814&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "7 min",
+            "distance": "550 m",
+            "instructions": "Seguir el paseo peatonal ribereño por More London y la explanada con vistas a la City hasta la rampa monumental del Tower Bridge.",
+            "to_stop_name": "Tower Bridge",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5066,-0.0814&destination=51.5055,-0.0754&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.iwm.org.uk/visits/hms-belfast",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/HMS_Belfast_(C35)",
+            "opening_hours": "Paseo exterior 24/7 | Visitas a bordo: 10:00–18:00 (Última entrada 17:00)",
+            "admission": "Exterior gratuito | Interior de pago (~£16 en Fever -40%)",
+            "metro_station": "London Bridge (Jubilee, Northern) / Tower Hill (Circle, District)",
+            "address": "The Queen's Walk, London SE1 2JH",
+            "curiosities": "Crucero ligero británico de 11.500 toneladas y 9 cubiertas botado en 1938. Participó en la batalla de Cabo Norte contra el Scharnhorst y en el bombardeo del Día D en Normandía en 1944. Sus cañones principales apuntan simbólicamente a la estación de servicio Scratchwood de la autopista M1 a 20 km.",
+            "practical_tips": "El paseo peatonal Queen's Walk junto al río ofrece las mejores panorámicas fotográficas con el Puente de la Torre de fondo sin necesidad de subir a bordo."
+          }
+        },
+        {
+          "id": "d1-s8",
+          "stop_number": 8,
+          "catalog_id": "15",
+          "name": "Tower Bridge",
+          "category": "Icono Urbano",
+          "icon": "bridge",
+          "time_window": "14:05 – 14:25",
+          "duration": "20 min",
+          "coords": [
+            51.5055,
+            -0.0754
+          ],
+          "description": "El puente levadizo más famoso del mundo, construido en estilo victoriano neogótico en 1894 para armonizar con la Torre de Londres. Cruce peatonal con brisa fluvial sobre el Támesis.",
+          "hack": "El cruce peatonal por las aceras exteriores del puente es completamente libre y gratuito.",
+          "image": "images/d1-s8.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 11,
+            "title": "Tower Bridge y el Salto Imposible del Autobús"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5055,-0.0754&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5055,-0.0754&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "400 m",
+            "instructions": "Cruzar la calzada peatonal este del puente hacia la orilla norte del río y descender las escaleras hacia el foso y la puerta de los leones (Lion Gate).",
+            "to_stop_name": "Torre de Londres (Tower of London)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5055,-0.0754&destination=51.5081,-0.0759&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.towerbridge.org.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Puente_de_la_Torre",
+            "opening_hours": "Cruce peatonal exterior 24/7 | Exposición interior: 09:30–18:00",
+            "admission": "Cruce exterior libre y gratuito | Pasarela interior de cristal £12",
+            "metro_station": "Tower Hill (Circle, District lines) / London Bridge",
+            "address": "Tower Bridge Road, London SE1 2UP",
+            "curiosities": "Construido en 1894 con estilo neogótico victoriano para armonizar con la vecina Torre de Londres. En 1952, un autobús de dos pisos de la línea 78 tuvo que saltar un desnivel de casi 2 metros cuando el puente comenzó a levantarse sin previo aviso.",
+            "practical_tips": "El cruce a pie por las aceras exteriores es gratuito y ofrece brisa fluvial y vistas espectaculares. El interior con pasarela de suelo de cristal transparente a 42 metros sobre el río es opcional."
+          }
+        },
+        {
+          "id": "d1-s9",
+          "stop_number": 9,
+          "catalog_id": "5",
+          "name": "Torre de Londres (Tower of London)",
+          "category": "Fortaleza Real & Historia",
+          "icon": "crown",
+          "time_window": "14:30 – 17:15",
+          "duration": "2h 45 min",
+          "coords": [
+            51.5081,
+            -0.0759
+          ],
+          "description": "Fortaleza normanda fundada en 1066 por Guillermo el Conquistador. Antigua prisión regia, zoológico real y escenario de ejecuciones de reinas. Custodia las míticas Joyas de la Corona, la Torre Blanca con las armaduras de Enrique VIII y los cuervos legendarios.",
+          "hack": "Estrategia clave: dirigíos directamente a la Jewel House a la llegada para disfrutar de las cintas mecánicas sin colas (cierran el acceso a las 16:30). Después recorred la White Tower y el cadalso con total holgura.",
+          "image": "images/d1-s9.jpg",
+          "audioguide": {
+            "guide_id": "01_dia_sabado_city_tate_torre_londres",
+            "track_number": 12,
+            "title": "Torre de Londres: El Foso y la Casa de Fieras Real (Lion Gate)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5081,-0.0759&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5081,-0.0759&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie (o Bus 205)",
+            "duration": "18 min",
+            "distance": "1,3 km",
+            "instructions": "Paseo hacia el norte subiendo por Minories, Mansell St y Commercial Street hacia el distrito creativo de Shoreditch y Brick Lane (opción bus 205 directo).",
+            "to_stop_name": "Shoreditch & Brick Lane",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5081,-0.0759&destination=51.5225,-0.0715&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.hrp.org.uk/tower-of-london",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Torre_de_Londres",
+            "opening_hours": "Mar-Sáb: 09:00–17:30 | Dom-Lun: 10:00–17:30 (Último acceso 15:30)",
+            "admission": "Entrada requerida (Joyas de la Corona incluidas, descuento Fever -40%)",
+            "metro_station": "Tower Hill (Circle, District lines)",
+            "address": "Tower of London, London EC3N 4AB",
+            "curiosities": "Fundada por Guillermo el Conquistador en 1066. Custodia las Joyas de la Corona británica, incluida la Corona Imperial del Estado con 2.868 diamantes y el cetro con el diamante Cullinan I de 530 quilates. La leyenda dice que si los 6 cuervos de la Torre se marchan, la Corona y el Reino Unido caerán.",
+            "practical_tips": "Nuestra entrada de las 14:30 h permite ir directos a la Jewel House hacia las 15:45 h cuando las colas han desaparecido. Los Beefeaters (Yeoman Warders) ofrecen tours guiados cada 30 minutos desde el foso de entrada."
+          }
+        },
+        {
+          "id": "d1-s10",
+          "stop_number": 10,
+          "catalog_id": "27",
+          "name": "Shoreditch & Brick Lane",
+          "category": "Arte Urbano & Gastronomía",
+          "icon": "brush",
+          "time_window": "20:00+",
+          "duration": "Noche libre",
+          "coords": [
+            51.5225,
+            -0.0715
+          ],
+          "description": "El epicentro de la cultura urbana y alternativa de Londres. Famoso por los murales de Banksy, tiendas vintage, ambiente nocturno y gastronomía cosmopolita: desde los famosos bagels de Beigel Bake hasta curris de Brick Lane o hamburguesas gourmet.",
+          "hack": "Beigel Bake (el de rótulo blanco y amarillo) abre 24 horas y sirve el clásico hot salt beef bagel con mostaza inglesa y pepinillo por menos de £6.",
+          "image": "images/d1-s10.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5225,-0.0715&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5225,-0.0715&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "dinner",
+            "type_label": "Cena",
+            "title": "Shoreditch & Brick Lane",
+            "time_window": "20:00 – 21:30 h",
+            "notes": "A solo 8–10 min a pie de vuestro hotel en la City. La zona más vibrante y cosmopolita de la noche londinense, repleta de street art de Banksy.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "Patty & Bun Shoreditch",
+                "category": "🍔 Hamburguesas de Autor",
+                "location": "36 Redchurch St",
+                "rating": "4.5 ★",
+                "highlight_dish": "Una de las mejores hamburgueserías de Londres. Hamburguesa 'Ari Gold' (ternera británica madurada, cheddar, cebolla encurtida y mayonesa ahumada, £12.50) o la 'Smokey Robinson' (con mermelada casera de bacon). Patatas fritas a la sal de romero.",
+                "price_range": "£16 – £21 / pers (£48 – £63 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Patty+and+Bun+36+Redchurch+St+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Beigel Bake Brick Lane Bakery",
+                "category": "🥯 Icono del East End (24 Horas)",
+                "location": "159 Brick Lane",
+                "rating": "4.5 ★",
+                "highlight_dish": "Abierto desde 1974. El bocado de culto más famoso y económico de Londres: el mítico Hot Salt Beef Bagel (bagel esponjoso recién horneado relleno de ternera curada en salmuera caliente con mostaza inglesa y pepinillo, £6.50).",
+                "price_range": "£7 – £11 / pers (£21 – £33 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Beigel+Bake+159+Brick+Lane+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "Pizza Pilgrims Shoreditch",
+                "category": "🇮🇹 Pizzas Napolitanas al Horno de Leña",
+                "location": "136 Shoreditch High St",
+                "rating": "4.6 ★",
+                "highlight_dish": "Pizzas de masa fermentada 72 horas cocinadas en horno de piedra volcánica. Margherita con mozzarella di bufala (£11.50) o con 'Nduja picante de Calabria y miel (£13). Postre: tarta de Nutella con masa de pizza frita.",
+                "price_range": "£14 – £19 / pers (£42 – £57 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Pizza+Pilgrims+136+Shoreditch+High+St+London"
+              },
+              {
+                "option_letter": "D",
+                "name": "Dishoom Shoreditch",
+                "category": "🇮🇳 Cocina Irani-Bombay (#1 Londres)",
+                "location": "7 Boundary St",
+                "rating": "4.6 ★",
+                "highlight_dish": "Homenaje a los cafés coloniales de Bombay de los años 60. House Black Daal (lentejas cocinadas 24h, £8.50), Chicken Ruby (pollo tierno en salsa cremosa aterciopelada de tomate y especias, £14.50), Garlic Naan y calamares con lima.",
+                "price_range": "£18 – £24 / pers (£54 – £72 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Dishoom+7+Boundary+St+London"
+              }
+            ]
+          },
+          "transit_to_next": null,
+          "details": {
+            "official_website": "https://www.visitlondon.com/things-to-do/place/8327918-shoreditch",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Shoreditch",
+            "opening_hours": "Calles y arte urbano 24/7 | Mercadillos y locales de ocio hasta medianoche",
+            "admission": "Acceso libre gratuito",
+            "metro_station": "Liverpool Street / Shoreditch High Street / Old Street",
+            "address": "Brick Lane & Redchurch St, London E1 6QL",
+            "curiosities": "Antiguo barrio obrero de tejedores de seda hugonotes e inmigrantes del este de Europa y Bangladesh, convertido en el epicentro creativo del street art mundial con murales de Banksy, Roa e Invader. Cuna de los legendarios locales de bagels judíos abiertos ininterrumpidamente.",
+            "practical_tips": "A solo 10 minutos a pie de nuestro hotel Travelodge City Road. Id a cenar el icónico Salt Beef Bagel con mostaza inglesa y pepinillo en Beigel Bake (nº 159, el de rótulo blanco)."
+          }
+        }
+      ],
+      "start_transit": {
+        "from": "Alojamiento (zona City / Liverpool Street)",
+        "to": "Horizon 22 (22 Bishopsgate)",
+        "mode": "walk",
+        "mode_label": "A pie",
+        "duration": "12 min",
+        "distance": "850 m",
+        "instructions": "Salida en dirección sur bajando por Bishopsgate, pasando junto a la estación de Liverpool Street hasta el acceso peatonal de 22 Bishopsgate. Terreno completamente llano.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5205,-0.0865&destination=51.5145,-0.083&travelmode=walking"
+      },
+      "end_transit": {
+        "from": "Shoreditch & Brick Lane",
+        "to": "Alojamiento (zona City / Liverpool Street)",
+        "mode": "walk",
+        "mode_label": "A pie",
+        "duration": "10 min",
+        "distance": "750 m",
+        "instructions": "Tras la cena en Shoreditch, paseo relajado nocturno hacia el oeste cruzando Commercial Street y Bishopsgate de vuelta al alojamiento.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5225,-0.0715&destination=51.5205,-0.0865&travelmode=walking"
+      }
+    },
+    {
+      "day_number": 2,
+      "date_label": "Domingo, 11 de Octubre",
+      "title": "Westminster Imperial, National Gallery y Corazón del West End",
+      "subtitle": "La sede del poder británico, paseo real por St James's y The Mall, grandes maestros en la National Gallery, rincones de Harry Potter y anochecer en Soho.",
+      "color": "#1565C0",
+      "accent": "blue",
+      "badge": "Día 2 · Domingo",
+      "highlights": [
+        "Big Ben",
+        "Abadía & Realeza",
+        "National Gallery",
+        "Harry Potter & Soho"
+      ],
+      "stops": [
+        {
+          "id": "d2-s1",
+          "stop_number": 1,
+          "catalog_id": "9",
+          "name": "Big Ben & Westminster Bridge (Mirador London Eye)",
+          "category": "Icono & Monumento",
+          "icon": "clock",
+          "time_window": "09:30 – 10:15",
+          "duration": "45 min",
+          "coords": [
+            51.5007,
+            -0.1246
+          ],
+          "description": "La Elizabeth Tower con su colosal reloj de cuatro esferas doradas y el cruce del Westminster Bridge hacia la orilla sur (South Bank). Desde aquí se contempla la noria London Eye de cerca y la postal más icónica de Londres: el Palacio de Westminster y el Big Ben reflejados en el Támesis con la luz frontal de la mañana.",
+          "hack": "Cruce matinal imprescindible: a primera hora (09:30) el sol de la mañana ilumina directamente la fachada este del Parlamento sin contraluz, y el puente está despejado de aglomeraciones. Bajad las escaleras hacia el paseo del South Bank (junto a St Thomas / London Eye) para la foto de postal antes de regresar hacia Parliament Square.",
+          "image": "images/d2-s1.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 1,
+            "title": "El Despertar bajo el Big Ben (Elizabeth Tower)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5007,-0.1246&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5007,-0.1246&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "400 m",
+            "instructions": "Regresar cruzando el puente hacia Parliament Square y continuar hacia la fachada oeste monumental de Westminster Abbey.",
+            "to_stop_name": "Abadía de Westminster (Westminster Abbey)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5007,-0.1246&destination=51.4994,-0.1273&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Big_Ben",
+            "opening_hours": "Exterior visible 24/7 (Campanadas en directo a las horas en punto)",
+            "admission": "Gratuito (Visitas interiores reservadas a residentes)",
+            "metro_station": "Westminster (Jubilee, District, Circle lines)",
+            "address": "Westminster Bridge & Parliament Square, London SW1A 0AA",
+            "curiosities": "La torre mide 96 metros y se llama Elizabeth Tower desde el Jubileo de Diamante de 2012. Big Ben es el apodo de la colosal campana mayor de 13.7 toneladas que suena en la nota Mi. Sus cuatro esferas volvieron a pintarse en el azul de Prusia original victoriano tras la reciente restauración de 5 años.",
+            "practical_tips": "Salid de la estación de metro Westminster por la salida Bridge Street. Caminad 250 m cruzando el Westminster Bridge hacia la orilla sur (South Bank / junto al London Eye) para tomar las fotos panorámicas con luz matinal y sin aglomeraciones. Luego regresad cruzando el puente hacia Parliament Square para la Abadía."
+          }
+        },
+        {
+          "id": "d2-s2",
+          "stop_number": 2,
+          "catalog_id": "10",
+          "name": "Abadía de Westminster (Westminster Abbey)",
+          "category": "Monumento Religioso & Real",
+          "icon": "church",
+          "time_window": "10:15 – 10:45",
+          "duration": "30 min",
+          "coords": [
+            51.4994,
+            -0.1273
+          ],
+          "description": "Templo gótico donde se han coronado todos los reyes y reinas británicos desde 1066. Lugar de reposo de monarcas, poetas (Chaucer, Shakespeare) y científicos universales como Newton, Darwin y Stephen Hawking.",
+          "hack": "Los domingos está reservada a servicios religiosos. La fachada oeste con los diez mártires del siglo XX es el punto fotográfico exterior maestro.",
+          "image": "images/d2-s2.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 3,
+            "title": "La Abadía de Westminster (Westminster Abbey)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.4994,-0.1273&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.4994,-0.1273&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "15 min",
+            "distance": "1,1 km",
+            "instructions": "Paseo imperial cruzando los jardines de St James's Park bordeando el lago entre cisnes y pelícanos hasta la explanada del Victoria Memorial frente al palacio.",
+            "to_stop_name": "Palacio de Buckingham & Victoria Memorial",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.4994,-0.1273&destination=51.5014,-0.1419&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.westminster-abbey.org",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Westminster",
+            "opening_hours": "Exterior 24/7 | Interior turístico: Lun-Sáb 09:30–15:30",
+            "admission": "Exterior gratuito | Interior £27 (Choral Evensong gratuito a las 17:00)",
+            "metro_station": "Westminster (Jubilee, District, Circle) / St James's Park",
+            "address": "20 Deans Yd, London SW1P 3PA",
+            "curiosities": "Templo gótico escenario de las coronaciones británicas desde 1066 y de 16 bodas reales. En su interior reposan Isaac Newton, Charles Darwin, Charles Dickens, Stephen Hawking y los monarcas de las dinastías Tudor y Plantagenet.",
+            "practical_tips": "La fachada oeste con sus torres gemelas y el pórtico norte son magníficos para fotos exteriores. Si queréis acceder gratis al interior con música coral, el servicio Choral Evensong a las 17:00 h es de libre acceso."
+          }
+        },
+        {
+          "id": "d2-s3",
+          "stop_number": 3,
+          "catalog_id": "11",
+          "name": "Palacio de Buckingham & Victoria Memorial",
+          "category": "Realeza & Palacio",
+          "icon": "crown",
+          "time_window": "10:45 – 11:15",
+          "duration": "30 min",
+          "coords": [
+            51.5014,
+            -0.1419
+          ],
+          "description": "Residencia oficial londinense de la monarquía británica. La fachada oriental clásica da al Victoria Memorial y a la majestuosa avenida ceremonial The Mall.",
+          "hack": "Observad el mástil del palacio: si ondea el Estandarte Real (*Royal Standard*), el monarca está presente; si ondea la Union Jack, se encuentra ausente.",
+          "image": "images/d2-s3.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 5,
+            "title": "Buckingham Palace y el Balcón de las Apariciones"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5014,-0.1419&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5014,-0.1419&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "2 min",
+            "distance": "150 m",
+            "instructions": "Pasear por The Mall y bordear el parque real de St James's disfrutando de las avenidas arboladas y las mansiones históricas hacia Horse Guards Parade.",
+            "to_stop_name": "The Mall & Paseo Real de St James's",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5014,-0.1419&destination=51.5042,-0.136&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.rct.uk/visit/buckingham-palace",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Palacio_de_Buckingham",
+            "opening_hours": "Exterior visible 24/7",
+            "admission": "Gratuito",
+            "metro_station": "Green Park (Piccadilly, Victoria, Jubilee) / St James's Park",
+            "address": "London SW1A 1AA",
+            "curiosities": "Residencia oficial londinense de los monarcas británicos desde la Reina Victoria en 1837. Dispone de 775 habitaciones y el jardín privado más grande de Londres. Si el estandarte Royal Standard ondea en el mástil, el Rey Carlos III está dentro; si ondea la Union Jack, se encuentra ausente.",
+            "practical_tips": "Nota sobre el Cambio de Guardia: El calendario militar oficial para el domingo 11 de octubre no incluye ceremonia en Buckingham (la ceremonia completa con banda se celebra los lunes, miércoles y viernes a las 11:00 h). Esto permite contemplar el palacio, las verjas doradas y el Victoria Memorial con total calma y sin la masa de 10.000 personas de los días de desfile. El paseo cruzando el puente peatonal del lago de St James's Park ofrece una de las vistas de postal más bonitas de Londres."
+          }
+        },
+        {
+          "id": "d2-s4",
+          "stop_number": 4,
+          "catalog_id": "12",
+          "name": "The Mall & Paseo Real de St James's",
+          "category": "Paseo Ceremonial & Parque",
+          "icon": "shield",
+          "time_window": "11:15 – 11:45",
+          "duration": "30 min",
+          "coords": [
+            51.5042,
+            -0.136
+          ],
+          "description": "Paseo ceremonial por la gran avenida roja de The Mall y los jardines de St James's Park bordeando el lago entre cisnes y pelícanos, contemplando los palacios reales de Clarence House y St James's Palace sin las aglomeraciones del cambio de guardia.",
+          "hack": "Pasear junto a Friary Court y Marlborough Gate ofrece una perspectiva privilegiada de las mansiones reales y el skyline de Whitehall.",
+          "image": "images/d2-s4.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 6,
+            "title": "The Mall, St James's Park y las Residencias Reales"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5042,-0.136&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5042,-0.136&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "8 min",
+            "distance": "650 m",
+            "instructions": "Subir en dirección este por The Mall hacia la explanada de arena de Horse Guards y cruzar el arco monumental hacia la avenida de Whitehall.",
+            "to_stop_name": "Horse Guards Parade & Whitehall",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5042,-0.136&destination=51.5048,-0.1265&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.royalparks.org.uk/parks/st-jamess-park",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/The_Mall_(Londres)",
+            "opening_hours": "Paseo por The Mall y St James's Park 24/7 | Garitas de Whitehall: 10:00–16:00",
+            "admission": "Gratuito",
+            "metro_station": "St James's Park / Green Park / Charing Cross",
+            "address": "The Mall & Spur Road, London SW1A 1AA",
+            "curiosities": "La solemne avenida The Mall une Trafalgar Square con Buckingham Palace flanqueada por árboles monumentales y banderas británicas. Nota de planificación: el calendario militar oficial para este domingo 11 de octubre no incluye ceremonia de cambio de guardia en Buckingham (el desfile matinal cuando se celebra es a las 10:00 h en Horse Guards). Disfrutar del paseo ceremonial sin masificaciones permite contemplar Clarence House y St James's Palace enlazando con calma hacia Horse Guards y Whitehall.",
+            "practical_tips": "El recorrido por St James's Park y The Mall es uno de los paseos urbanos más agradables de Europa. Bordeando el lago veréis pelícanos y cisnes con el palacio de fondo."
+          }
+        },
+        {
+          "id": "d2-s5",
+          "stop_number": 5,
+          "catalog_id": "13",
+          "name": "Horse Guards Parade & Whitehall",
+          "category": "Caballería & Gobierno",
+          "icon": "flag",
+          "time_window": "11:45 – 12:15",
+          "duration": "30 min",
+          "coords": [
+            51.5048,
+            -0.1265
+          ],
+          "description": "Sede histórica del mando militar británico con centinelas montados de la *Household Cavalry*. Paseo por la avenida de Whitehall pasando junto a la cancela fortificada del Número 10 de Downing Street (residencia del Primer Ministro).",
+          "hack": "En las garitas de piedra exteriores podéis fotografiar a los caballos negros y guardias con coraza reluciente. No toquéis las riendas de los caballos por seguridad.",
+          "image": "images/d2-s5.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 7,
+            "title": "Horse Guards y los Centinelas de la Caballería Real"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5048,-0.1265&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5048,-0.1265&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "450 m",
+            "instructions": "Seguir subiendo hacia el norte por Whitehall pasando junto a Downing Street y Great Scotland Yard hasta desembocar en la Columna de Nelson.",
+            "to_stop_name": "Trafalgar Square",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5048,-0.1265&destination=51.508,-0.1281&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.householddivision.org.uk/horse-guards-parade",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Horse_Guards_Parade",
+            "opening_hours": "Centinelas montados en garitas exteriores: 10:00–16:00",
+            "admission": "Gratuito",
+            "metro_station": "Westminster / Charing Cross",
+            "address": "Whitehall, London SW1A 2AX",
+            "curiosities": "Cuartel general histórico de la guardia a caballo del Rey (The King's Life Guard) con corazas relucientes y cascos con penacho de crin. En la fachada de Whitehall dos soldados montan guardia a caballo inmóviles en sus garitas de piedra.",
+            "practical_tips": "Podéis sacaros una foto junto al centinela montado a caballo gratis y sin colas. Respetad una distancia prudencial de 1 metro: los caballos pueden morder si se les toca la rienda."
+          }
+        },
+        {
+          "id": "d2-s6",
+          "stop_number": 6,
+          "catalog_id": "14",
+          "name": "Trafalgar Square",
+          "category": "Plaza Emblemática",
+          "icon": "monument",
+          "time_window": "12:15 – 12:45",
+          "duration": "30 min",
+          "coords": [
+            51.508,
+            -0.1281
+          ],
+          "description": "El corazón neurálgico de Londres presidido por la Columna de Nelson de 52 metros custodiada por cuatro leones colosales de bronce de Landseer y fuentes monumentales.",
+          "hack": "En la esquina noreste de la plaza se encuentra la estación de policía más pequeña de Gran Bretaña, disimulada dentro de una farola hueca de piedra.",
+          "image": "images/d2-s6.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.508,-0.1281&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.508,-0.1281&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "1 min",
+            "distance": "80 m",
+            "instructions": "Subir la escalinata norte o acceder por el ala oeste Sainsbury Wing (acceso lateral con control de seguridad ágil).",
+            "to_stop_name": "The National Gallery",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.508,-0.1281&destination=51.5089,-0.1283&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.london.gov.uk/programmes-strategies/arts-and-culture/trafalgar-square",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Trafalgar_Square",
+            "opening_hours": "Abierta 24/7",
+            "admission": "Gratuito",
+            "metro_station": "Charing Cross (Northern, Bakerloo lines)",
+            "address": "Trafalgar Sq, London WC2N 5DN",
+            "curiosities": "Conmemora la victoria naval británica de 1805 frente a Francia y España. La Columna de Nelson mide 52 metros y está custodiada por cuatro leones de bronce colosales esculpidos por Edwin Landseer, fundidos con el bronce de cañones de barcos franceses capturados.",
+            "practical_tips": "Es el kilómetro cero de Londres: todas las distancias en carreteras de Gran Bretaña se miden desde la placa situada frente a la estatua de Carlos I."
+          }
+        },
+        {
+          "id": "d2-s7",
+          "stop_number": 7,
+          "catalog_id": "3",
+          "name": "The National Gallery",
+          "category": "Museo Mayor",
+          "icon": "palette",
+          "time_window": "12:45 – 14:15",
+          "duration": "1h 30 min",
+          "coords": [
+            51.5089,
+            -0.1283
+          ],
+          "description": "Pinacoteca con una de las mayores colecciones de pintura occidental del mundo (1250–1900): 'El matrimonio Arnolfini' de Van Eyck, 'Los Embajadores' de Holbein, 'La Venus del espejo' de Velázquez, 'Los Girasoles' de Van Gogh y 'El Temerario' de Turner.",
+          "hack": "Reserva confirmada a las 12:45 h (Ref: 10119618). Entrada gratuita. Seguid el itinerario cronológico de 7 obras maestras para una visita fluida y memorable.",
+          "image": "images/d2-s7.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 10,
+            "title": "National Gallery: El Retrato del Matrimonio Arnolfini (Jan van Eyck, 1434)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5089,-0.1283&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5089,-0.1283&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "8 min",
+            "distance": "600 m",
+            "instructions": "Paseo hacia el este por William IV Street y Bedford Street directo a la plaza cubierta y terrazas de Covent Garden.",
+            "to_stop_name": "Covent Garden Piazza & Apple Market",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5089,-0.1283&destination=51.5117,-0.1226&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.nationalgallery.org.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/National_Gallery",
+            "opening_hours": "Diario: 10:00–18:00 (Reserva confirmada a las 12:45 h, Ref: 10119618)",
+            "admission": "Gratuito (Reserva online confirmada)",
+            "metro_station": "Charing Cross / Leicester Square",
+            "address": "Trafalgar Square, London WC2N 5DN",
+            "curiosities": "Custodia más de 2.300 pinturas desde 1250 hasta 1900. Obras maestras absolutas: 'Los Girasoles' de Van Gogh (Sala 43), 'La Venus del Espejo' de Velázquez, 'El matrimonio Arnolfini' de Van Eyck y 'La Virgen de las Rocas' de Leonardo da Vinci.",
+            "practical_tips": "Nuestra reserva confirmada para las 12:45 h permite una visita perfecta de 1h 30 min por las 7 grandes obras maestras. Al terminar a las 14:15 h, caminamos 8 minutos hacia Covent Garden para el almuerzo sin solapamiento de horarios."
+          }
+        },
+        {
+          "id": "d2-s8",
+          "stop_number": 8,
+          "catalog_id": "21",
+          "name": "Covent Garden Piazza & Apple Market",
+          "category": "Mercado & Almuerzo",
+          "icon": "shopping-bag",
+          "time_window": "14:15 – 15:30",
+          "duration": "1h 15 min",
+          "coords": [
+            51.5117,
+            -0.1226
+          ],
+          "description": "Antiguo mercado central de flores y hortalizas reconvertido en galería comercial con músicos callejeros con audición previa, cafés históricos y ambiente vibrante. Franja protegida de almuerzo dominguero.",
+          "hack": "Comida de domingo: Sunday Roast en The Salisbury Pub, pizzas gigantes en Homeslice o puestos gourmet en Seven Dials Market.",
+          "image": "images/d2-s8.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 17,
+            "title": "Covent Garden Piazza y el Rincón Secreto de Neal's Yard"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5117,-0.1226&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5117,-0.1226&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "lunch",
+            "type_label": "Almuerzo / Comida",
+            "title": "Covent Garden & Seven Dials",
+            "time_window": "14:15 – 15:30 h",
+            "notes": "Al salir de la National Gallery y antes de los callejones mágicos de Harry Potter. Es el momento perfecto para disfrutar de la animación y la música callejera en la Piazza.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "The Salisbury Pub",
+                "category": "🇬🇧 Sunday Roast Tradicional",
+                "location": "90 St Martin's Lane",
+                "rating": "4.4 ★",
+                "highlight_dish": "Majestuoso pub victoriano de 1892 con cristales grabados y terciopelo. Auténtico Sunday Roast británico de domingo: ternera asada en su jugo con un colosal Yorkshire Pudding inflado, patatas asadas al romero, chirivías y abundante gravy.",
+                "price_range": "£19 – £25 / pers (£57 – £75 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Salisbury+Pub+90+St+Martins+Lane+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Homeslice Neal's Yard",
+                "category": "🇮🇹 Pizzas Gigantes de 50 cm",
+                "location": "13 Neal's Yard (Seven Dials)",
+                "rating": "4.5 ★",
+                "highlight_dish": "En el callejón de fachadas multicolor de Neal's Yard. Espectaculares pizzas al horno de leña de 20 pulgadas (50 cm) para compartir en tablas de madera, combinando 2 mitades de diferentes sabores. Con 1 o 2 pizzas comen 3 personas.",
+                "price_range": "£13 – £17 / pers (£39 – £51 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Homeslice+13+Neals+Yard+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "Honest Burgers Covent Garden",
+                "category": "🍔 Hamburguesas de Pasto & Patatas Ilimitadas",
+                "location": "33 Southampton St",
+                "rating": "4.6 ★",
+                "highlight_dish": "Carne de pasto picada diariamente en carnicería propia. Hamburguesa 'Honest' (cheddar de Somerset, bacon ahumado, cebolla caramelizada y rúcula, £15) servida con patatas fritas caseras con sal de romero ilimitadas/incluidas.",
+                "price_range": "£16 – £20 / pers (£48 – £60 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Honest+Burgers+33+Southampton+St+London"
+              },
+              {
+                "option_letter": "D",
+                "name": "Seven Dials Market",
+                "category": "🌮 Almacén Gastronómico Multicocina",
+                "location": "35 Earlham St (Seven Dials)",
+                "rating": "4.6 ★",
+                "highlight_dish": "Antiguo almacén de plátanos con 15 puestos independientes: tacos de birria en Los Gordos, pollo a la brasa filipino en Filishack, dumplings en BaoziInn o quesos en cinta en Pick & Cheese. Cada miembro de la familia elige lo que quiere.",
+                "price_range": "£12 – £17 / pers (£36 – £51 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Seven+Dials+Market+London"
+              }
+            ]
+          },
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "350 m",
+            "instructions": "Subir por James Street hacia Seven Dials y adentrarse por el estrecho pasaje de Shorts Gardens al rincón multicolor de Neal's Yard.",
+            "to_stop_name": "Neal's Yard (Seven Dials)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5117,-0.1226&destination=51.5144,-0.1262&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.coventgarden.london",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Covent_Garden",
+            "opening_hours": "Piazza abierta 24/7 (Puestos y artistas: 10:00–18:00)",
+            "admission": "Gratuito",
+            "metro_station": "Covent Garden (Piccadilly line)",
+            "address": "The Market, London WC2E 8RF",
+            "curiosities": "Antiguo convento y huerto medieval de la Abadía de Westminster. Diseñado como plaza residencial señorial en 1630 por Inigo Jones. El patio cubierto acogió el mercado de flores inmortalizado por George Bernard Shaw en 'Pygmalion' y Audrey Hepburn en 'My Fair Lady'.",
+            "practical_tips": "Franja de almuerzo dominguero (14:15–15:30 h): disfrutad del Sunday Roast en The Salisbury o una pizza gigante en Homeslice, y de espectáculos callejeros de música clásica en el patio inferior."
+          }
+        },
+        {
+          "id": "d2-s9",
+          "stop_number": 9,
+          "catalog_id": "22",
+          "name": "Neal's Yard (Seven Dials)",
+          "category": "Rincón Secreto",
+          "icon": "heart",
+          "time_window": "15:30 – 16:00",
+          "duration": "30 min",
+          "coords": [
+            51.5144,
+            -0.1262
+          ],
+          "description": "Callejón peatonal escondido entre Monmouth Street y Shorts Gardens, repleto de fachadas pintadas en vivos colores fluorescentes, plantas trepadoras, cafés sostenibles y panaderías ecológicas.",
+          "hack": "Acceso por un estrecho callejón casi invisible. Es uno de los puntos más pintorescos y fotogénicos de todo Londres.",
+          "image": "images/d2-s9.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 17,
+            "title": "Covent Garden Piazza y el Rincón Secreto de Neal's Yard"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5144,-0.1262&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5144,-0.1262&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "6 min",
+            "distance": "450 m",
+            "instructions": "Bajar por Upper St Martin's Lane y cruzar a los callejones victorianos de Cecil Court y Goodwin's Court.",
+            "to_stop_name": "Cecil Court & Goodwin's Court",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5144,-0.1262&destination=51.5106,-0.1274&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.seventdials.co.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Seven_Dials_(Londres)",
+            "opening_hours": "Abierto 24/7",
+            "admission": "Gratuito",
+            "metro_station": "Covent Garden / Leicester Square",
+            "address": "Neal's Yard, London WC2H 9DP",
+            "curiosities": "Microcallejón peatonal secreto recuperado en los años 70 por el activista Nicholas Saunders. Sus fachadas de ladrillo pintadas en azul cobalto, fucsia, naranja y amarillo con balcones de plantas son uno de los rincones más coloridos de Europa.",
+            "practical_tips": "Acceso por los estrechos pasadizos de Monmouth Street o Shorts Gardens. Disfrutad de un café de especialidad o un helado artesanal."
+          }
+        },
+        {
+          "id": "d2-s10",
+          "stop_number": 10,
+          "catalog_id": "24",
+          "name": "Cecil Court & Goodwin's Court",
+          "category": "Harry Potter & Librerías",
+          "icon": "book-open",
+          "time_window": "16:00 – 16:30",
+          "duration": "30 min",
+          "coords": [
+            51.5106,
+            -0.1274
+          ],
+          "description": "Calles peatonales gaslamp victorianas que inspiraron a J.K. Rowling para el Callejón Diagon y el tenebroso Callejón Knockturn. Tiendas de mapas antiguos, primeras ediciones y magia victoriana.",
+          "hack": "Goodwin's Court conserva ventanales curvos de cristal soplado del siglo XVIII y farolas de gas auténticas.",
+          "image": "images/d2-s10.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5106,-0.1274&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5106,-0.1274&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "3 min",
+            "distance": "200 m",
+            "instructions": "Salir a la explanada de Leicester Square hacia el lado este: la tienda de LEGO y M&M's World quedan en frente.",
+            "to_stop_name": "LEGO Store Leicester Square",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5106,-0.1274&destination=51.5107,-0.1303&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://cecilcourt.co.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Cecil_Court",
+            "opening_hours": "Pasaje abierto 24/7 (Librerías: 10:30–18:00)",
+            "admission": "Gratuito",
+            "metro_station": "Leicester Square (Northern, Piccadilly)",
+            "address": "Cecil Court, London WC2N 4EZ",
+            "curiosities": "Cecil Court (calle victoriana con librerías de anticuario, mapas del siglo XVII y primeras ediciones) inspiró el Callejón Diagon a J.K. Rowling. Goodwin's Court, a 2 minutos, conserva casas georgianas de 1690 con ventanales curvados y faroles de gas reales que inspiraron Knockturn Alley.",
+            "practical_tips": "Mozart vivió en el nº 9 de Cecil Court en 1764 con solo 8 años mientras componía su primera sinfonía."
+          }
+        },
+        {
+          "id": "d2-s11",
+          "stop_number": 11,
+          "catalog_id": "50",
+          "name": "LEGO Store Leicester Square",
+          "category": "Ocio & Tiendas Icónicas",
+          "icon": "smile",
+          "time_window": "16:30 – 17:15",
+          "duration": "45 min",
+          "coords": [
+            51.5107,
+            -0.1303
+          ],
+          "description": "La tienda LEGO más grande del mundo. Alberga maquetas gigantescas a escala real del Big Ben (con campanario que se ilumina), un vagón de metro de Londres a escala 1:1 y un Aston Martin de James Bond.",
+          "hack": "¡Atención domingo!: cierra a las 18:00 h en punto por normativa comercial británica. Visitar a las 16:30 h permite disfrutarla con calma antes del cierre.",
+          "image": "images/d2-s11.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5107,-0.1303&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5107,-0.1303&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "400 m",
+            "instructions": "Caminar hacia el norte cruzando Shaftesbury Avenue hacia Wardour Street en pleno corazón de Soho.",
+            "to_stop_name": "House of MinaLima (Soho)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5107,-0.1303&destination=51.5135,-0.1315&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.lego.com/en-gb/stores/store/london-leicester-square",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Leicester_Square",
+            "opening_hours": "Dom: 12:00–18:00 (Cierre estricto a las 18:00) | Lun-Sáb: 10:00–22:00",
+            "admission": "Entrada libre y gratuita",
+            "metro_station": "Leicester Square / Piccadilly Circus",
+            "address": "3 Swiss Court, London W1D 6AP",
+            "curiosities": "Es la tienda LEGO más grande del mundo (914 m²). Cuenta con una réplica de vagón de metro de Londres a escala 1:1 con 637.903 piezas donde sentarse junto a Shakespeare, un Big Ben de 6 metros de altura con reloj funcional y el Aston Martin DB5 de James Bond.",
+            "practical_tips": "Atención en domingo: las tiendas cierran a las 18:00 h en punto por la legislación británica (Sunday Trading Act). Nuestra visita a las 16:30 h es ideal para entrar sin agobios y visitar también M&M's World en frente."
+          }
+        },
+        {
+          "id": "d2-s12",
+          "stop_number": 12,
+          "catalog_id": "23",
+          "name": "House of MinaLima (Soho)",
+          "category": "Harry Potter & Diseño",
+          "icon": "sparkles",
+          "time_window": "17:15 – 18:00",
+          "duration": "45 min",
+          "coords": [
+            51.5135,
+            -0.1315
+          ],
+          "description": "Galería y tienda de Eduardo Lima y Miraphora Mina, los diseñadores gráficos que crearon la carta de Hogwarts, el Mapa del Merodeador, 'El Profeta' y los envases de Sortilegios Weasley para las películas.",
+          "hack": "Entrada libre para contemplar las láminas originales expuestas en las plantas superiores.",
+          "image": "images/d2-s12.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5135,-0.1315&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5135,-0.1315&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "7 min",
+            "distance": "500 m",
+            "instructions": "Paseo hacia el sur por Wardour Street y Shaftesbury Avenue directo a las pantallas gigantes iluminadas de Piccadilly Circus.",
+            "to_stop_name": "Piccadilly Circus",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5135,-0.1315&destination=51.5101,-0.134&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://minalima.com",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Harry_Potter_(serie_cinematogr%C3%A1fica)",
+            "opening_hours": "Diario: 11:00–19:00",
+            "admission": "Entrada libre y gratuita",
+            "metro_station": "Tottenham Court Road / Leicester Square",
+            "address": "157 Wardour Street, London W1F 8WZ",
+            "curiosities": "Galería y tienda fundada por Miraphora Mina y Eduardo Lima, los diseñadores gráficos que crearon todo el universo visual de las 8 películas de Harry Potter y Animales Fantásticos: la carta de aceptación de Hogwarts, el Mapa del Merodeador y las portadas de El Profeta.",
+            "practical_tips": "Entrada gratuita de acceso libre por orden de llegada. En sus cuatro plantas podéis ver atrezzo original de los rodajes y adquirir pósteres y láminas autografiadas."
+          }
+        },
+        {
+          "id": "d2-s13",
+          "stop_number": 13,
+          "catalog_id": "25",
+          "name": "Piccadilly Circus",
+          "category": "Luces Urbanas & Atardecer",
+          "icon": "zap",
+          "time_window": "18:00 – 18:45",
+          "duration": "45 min",
+          "coords": [
+            51.5101,
+            -0.134
+          ],
+          "description": "La plaza más famosa de Londres con sus colosales pantallas LED curvas publicitarias y la fuente monumental de bronce con el Ángel de la Caridad Cristiana (popularmente conocido como Eros), disfrutando del atardecer urbano (puesta de sol: 18:18 h).",
+          "hack": "Subid a las escalinatas de la fuente de Eros para tener el mejor tiro fotográfico con las pantallas iluminadas al fondo.",
+          "image": "images/d2-s13.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5101,-0.134&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5101,-0.134&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "3 min",
+            "distance": "250 m",
+            "instructions": "Avanzar 250 metros cruzando Shaftesbury Avenue y adentrarse bajo los pórticos ceremoniales chinos de Gerrard Street para la cena.",
+            "to_stop_name": "Chinatown & Soho",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5101,-0.134&destination=51.5122,-0.1305&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.visitlondon.com/things-to-do/place/407238-piccadilly-circus",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Piccadilly_Circus",
+            "opening_hours": "Abierto 24/7 (Pantallas iluminadas día y noche)",
+            "admission": "Gratuito",
+            "metro_station": "Piccadilly Circus (Bakerloo, Piccadilly lines)",
+            "address": "Piccadilly Circus, London W1D 7ET",
+            "curiosities": "Famoso por su colosal pantalla LED curva 'Piccadilly Lights' y la fuente conmemorativa del Ángel de la Caridad Cristiana (popularmente conocido como Eros), esculpido en aluminio en 1893. En 'Las Reliquias de la Muerte', Harry, Ron y Hermione se aparecen aquí tras huir de la boda.",
+            "practical_tips": "Espectacular a las 18:00 h con la puesta de sol (18:18 h) cuando el West End bulle con los teatros y las marquesinas de luces de neón iluminan toda la plaza."
+          }
+        },
+        {
+          "id": "d2-s14",
+          "stop_number": 14,
+          "catalog_id": "26",
+          "name": "Chinatown & Soho",
+          "category": "Gastronomía & Cena",
+          "icon": "coffee",
+          "time_window": "18:45+",
+          "duration": "Cena libre",
+          "coords": [
+            51.5122,
+            -0.1305
+          ],
+          "description": "Gerrard Street bajo arcos de bienvenida chinos de tres vanos y farolillos rojos suspendidos. Excelente oferta de dim sum, pato asado pekinés, fideos hechos a mano y locales míticos de jazz y tapeo en Soho.",
+          "hack": "Probad los taiyaki (gofres japoneses rellenos con helado suave de té verde matcha) en las pastelerías de Gerrard Street.",
+          "image": "images/d2-s14.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5122,-0.1305&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5122,-0.1305&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "dinner",
+            "type_label": "Cena",
+            "title": "Soho & Chinatown",
+            "time_window": "18:45 – 20:30 h",
+            "notes": "Tras el paseo por la animación de Leicester Square y los neones de Piccadilly Circus al anochecer. Gran variedad gastronómica a pocos pasos.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "Four Seasons & Dumplings' Legend",
+                "category": "🥢 Pato Asado Cantonés & Dim Sum",
+                "location": "11-12 Gerrard St / 15-16 Gerrard St (Chinatown)",
+                "rating": "4.3 ★",
+                "highlight_dish": "Four Seasons: elogiado por Financial Times como el mejor pato asado cantonés del mundo (piel dorada crujiente con jugo aromático de soja dulce, £18.50 medio pato) y Char Siu. Dumplings' Legend: cestas de Xiao Long Bao artesanal (£9.50/8 uds) y dim sum al vapor.",
+                "price_range": "£16 – £23 / pers (£48 – £69 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Four+Seasons+12+Gerrard+St+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Eat Tokyo Soho & Misato",
+                "category": "🇯🇵 Taberna Japonesa Tradicional (Sin Ramen)",
+                "location": "16 Old Compton St / 11 Wardour St (Soho)",
+                "rating": "4.5 ★",
+                "highlight_dish": "Eat Tokyo: ambiente clásico de izakaya tokiota, barcos de madera con sushi y maki rolls para compartir (£24–38), cajas Bento completas con teriyaki, tempura y sashimi (£14–17), y Chicken Katsu Curry crujiente. Misato: katsu y teriyaki colosales a precio imbatible.",
+                "price_range": "£14 – £21 / pers (£42 – £63 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Eat+Tokyo+16+Old+Compton+St+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "Lina Stores Soho",
+                "category": "🇮🇹 Trattoria Italiana Histórica (Desde 1944)",
+                "location": "51 Greek St (Soho)",
+                "rating": "4.5 ★",
+                "highlight_dish": "Legendaria pasta fresca casera en un local histórico con azulejos verde menta: Tagliolini con trufa negra y mantequilla de montaña (£14.50), agnolotti rellenos de ternera con jugo de carne y cannoli sicilianos de pistacho.",
+                "price_range": "£17 – £23 / pers (£51 – £69 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Lina+Stores+51+Greek+St+London"
+              },
+              {
+                "option_letter": "D",
+                "name": "Supernova Burgers & Honest Burgers",
+                "category": "🍔 Smashburgers Virales & Clásicas",
+                "location": "25 Peter St / 4 Meard St (Soho)",
+                "rating": "4.7 ★",
+                "highlight_dish": "Supernova: las smashburgers de doble carne madurada con costra supercrujiente más aclamadas de Londres en pan brioche glaseado (~£11). Honest Soho: ambiente recogido en callejón adoquinado con hamburguesa especial Soho.",
+                "price_range": "£13 – £18 / pers (£39 – £54 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Supernova+Burgers+Peter+St+London"
+              }
+            ]
+          },
+          "transit_to_next": null,
+          "details": {
+            "official_website": "https://chinatown.co.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Chinatown_(Londres)",
+            "opening_hours": "Calles 24/7 (Restaurantes hasta las 23:00 / medianoche)",
+            "admission": "Acceso libre gratuito",
+            "metro_station": "Leicester Square / Piccadilly Circus",
+            "address": "Gerrard Street, London W1D 5PT",
+            "curiosities": "El barrio chino de Gerrard Street está decorado con cuatro arcos ceremoniales tradicionales chinos donados por la ciudad de Pekín, farolillos rojos y esculturas de leones guardianes. Conecta directamente con las animadas callejuelas del Soho.",
+            "practical_tips": "Lugar idóneo para nuestra cena del domingo: gran variedad de dumplings, pato laqueado cantonés, fideos hand-pulled y postres asiáticos a precios razonables."
+          }
+        }
+      ],
+      "start_transit": {
+        "from": "Alojamiento (zona City / Liverpool Street)",
+        "to": "Big Ben & Palacio de Westminster",
+        "mode": "subway",
+        "mode_label": "Metro Circle / District Line",
+        "duration": "18 min",
+        "distance": "4,8 km",
+        "instructions": "Paseo de 5 min a Moorgate o Liverpool Street. Metro directo en línea Circle o District (andén dirección oeste) sin transbordos (14 min de tren, 8 paradas) hasta Westminster. Salida directa bajo la torre del reloj.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5205,-0.0865&destination=51.5007,-0.1246&travelmode=transit"
+      },
+      "end_transit": {
+        "from": "Chinatown & Soho",
+        "to": "Alojamiento (zona City / Liverpool Street)",
+        "mode": "subway",
+        "mode_label": "Metro Central Line",
+        "duration": "15 min",
+        "distance": "4,2 km",
+        "instructions": "Caminar 4 min a la estación Tottenham Court Road. Tomar la línea Central (andén dirección este) directa en 6 min (4 paradas) hasta Liverpool Street. Paseo de 5 min al alojamiento.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5122,-0.1305&destination=51.5205,-0.0865&travelmode=transit"
+      }
+    },
+    {
+      "day_number": 3,
+      "date_label": "Lunes, 12 de Octubre",
+      "title": "Las Grandes Joyas de la Humanidad y la Naturaleza",
+      "subtitle": "La Piedra Rosetta en el British Museum, la catedral de los dinosaurios en South Kensington y elegantes callejones mews.",
+      "color": "#2E7D32",
+      "accent": "green",
+      "badge": "Día 3 · Lunes",
+      "highlights": [
+        "British Museum",
+        "Natural History Museum",
+        "Abadía de Westminster (Choral Evensong)",
+        "Covent Garden & Soho / Notting Hill"
+      ],
+      "stops": [
+        {
+          "id": "d3-s1",
+          "stop_number": 1,
+          "catalog_id": "1",
+          "name": "The British Museum",
+          "category": "Museo Mayor",
+          "icon": "landmark",
+          "time_window": "10:20 – 12:30",
+          "duration": "2h 10 min",
+          "coords": [
+            51.5194,
+            -0.127
+          ],
+          "description": "El museo más visitado de Europa. Alberga la Piedra Rosetta que descifró los jeroglíficos, los mármoles del Partenón, los colosos asirios de Nimrud, las momias faraónicas y las piezas de ajedrez vikingas de Lewis.",
+          "hack": "Reserva confirmada a las 10:20 AM (Ref: 11221596). Hack anti-colas: entrad por Montague Place (Entrada Norte trasera) para pasar el control en 5 minutos directo al Gran Atrio.",
+          "image": "images/d3-s1.jpg",
+          "audioguide": {
+            "guide_id": "03_dia_lunes_british_museum_historia_natural",
+            "track_number": 1,
+            "title": "British Museum: El Gran Atrio de la Reina Isabel II (Great Court)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5194,-0.127&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5194,-0.127&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "lunch",
+            "type_label": "Almuerzo / Comida",
+            "title": "Bloomsbury & Holborn (Salida British Museum)",
+            "time_window": "12:30 – 13:30 h",
+            "notes": "Al salir de la visita al British Museum (12:30 h), antes de tomar la línea Piccadilly en Holborn rumbo a South Kensington (llegada 14:15 h para acceder a Historia Natural a las 14:30 h). Locales a 2-5 min a pie.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "The Museum Tavern",
+                "category": "🇬🇧 Pub Histórico de 1700",
+                "location": "49 Great Russell St (justo enfrente del museo)",
+                "rating": "4.4 ★",
+                "highlight_dish": "Taberna victoriana histórica con paneles de roble tallado donde descansaba Karl Marx tras sus lecturas. Delicioso Steak & Ale Pie con costra dorada de hojaldre, puré cremoso y guisantes (£17), o Fish & Chips tradicional.",
+                "price_range": "£17 – £23 / pers (£51 – £69 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Museum+Tavern+49+Great+Russell+St+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Master Wei Xi'an Kitchen",
+                "category": "🥢 Fideos Biang Biang Hechos a Mano",
+                "location": "13 Cosmo Place (a 3 min a pie)",
+                "rating": "4.5 ★",
+                "highlight_dish": "Cocina de la antigua Ruta de la Seda de la chef Wei Guirong. Famosos fideos anchos estirados y golpeados a mano al momento con ternera o cordero al comino y aceite aromático (£12.50), y Rou Jia Mo (bocadillo milenario hojaldrado con cerdo estofado 12h, £6.20).",
+                "price_range": "£13 – £18 / pers (£39 – £54 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Master+Wei+Xi'an+Kitchen+Cosmo+Place+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "Ciao Bella",
+                "category": "🇮🇹 Trattoria Napolitana Familiar",
+                "location": "86-90 Lamb's Conduit St (a 7 min a pie)",
+                "rating": "4.6 ★",
+                "highlight_dish": "Acogedora trattoria con manteles a cuadros rojos. Raciones colosales de Spaghetti alle Vongole servidos en papillote de papel de aluminio humeante (£14), lasaña artesana al horno y tiramisú casero de receta familiar.",
+                "price_range": "£16 – £22 / pers (£48 – £66 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Ciao+Bella+86+Lambs+Conduit+St+London"
+              },
+              {
+                "option_letter": "D",
+                "name": "Honest Burgers Bloomsbury",
+                "category": "🍔 Hamburguesas Rápidas de Calidad",
+                "location": "87 Southampton Row (a 4 min a pie)",
+                "rating": "4.5 ★",
+                "highlight_dish": "Servicio muy ágil para comer bien en 40 minutos sin agobios de reloj antes del metro. Hamburguesas de carne de pasto madurada, queso cheddar y patatas caseras con sal de romero incluidas.",
+                "price_range": "£15 – £19 / pers (£45 – £57 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Honest+Burgers+87+Southampton+Row+London"
+              }
+            ]
+          },
+          "transit_to_next": {
+            "mode": "subway",
+            "mode_label": "Metro Piccadilly Line",
+            "duration": "22 min",
+            "distance": "5,2 km",
+            "instructions": "Almuerzo en Bloomsbury junto al museo (12:30–13:30 h). Tras comer, paseo de 5 min a Holborn y metro directo en línea Piccadilly (13 min) hasta South Kensington para acceder a Historia Natural (entrada reservada 14:30 h, llegada a las 14:15 h con margen).",
+            "to_stop_name": "Natural History Museum (Museo de Historia Natural)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5194,-0.127&destination=51.4967,-0.1764&travelmode=transit"
+          },
+          "details": {
+            "official_website": "https://www.britishmuseum.org",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Museo_Brit%C3%A1nico",
+            "opening_hours": "Diario: 10:00–17:00 (Reserva confirmada a las 10:20 AM, Ref: 11221596)",
+            "admission": "Gratuito (Reserva previa online confirmada)",
+            "metro_station": "Tottenham Court Road (Central, Elizabeth) / Holborn",
+            "address": "Great Russell Street, London WC1B 3DG",
+            "curiosities": "Fundado en 1753, fue el primer museo público nacional del mundo. El Gran Atrio de la Reina Isabel II (Queen Elizabeth II Great Court) diseñado por Norman Foster está cubierto por 3.312 paneles triangulares de cristal. Joyas: la Piedra Rosetta (Sala 4), los Mármoles del Partenón (Sala 18) y las Momias de Egipto (Salas 62-63).",
+            "practical_tips": "Hack maestro de acceso: entrad por la puerta norte de Montague Place en lugar de Great Russell Street para ahorraros 30-40 minutos de cola de seguridad exterior."
+          }
+        },
+        {
+          "id": "d3-s2",
+          "stop_number": 2,
+          "catalog_id": "2",
+          "name": "Natural History Museum (Museo de Historia Natural)",
+          "category": "Museo Mayor",
+          "icon": "feather",
+          "time_window": "14:30 – 17:00",
+          "duration": "2h 30 min",
+          "coords": [
+            51.4967,
+            -0.1764
+          ],
+          "description": "Una catedral románica neogótica de terracota. El Hintze Hall está presidido por 'Hope', el esqueleto suspendido de una ballena azul de 25 metros. Destacan la galería de dinosaurios con el T-Rex animatrónico a escala real, el simulador del terremoto de Kobe y el tronco de secuoya gigante de 1.300 años.",
+          "hack": "Reserva confirmada a las 14:30 h (Ref: 20260919-S17641437). Entrada 100% gratuita. La entrada lateral de Exhibition Road suele tener colas más cortas que el pórtico principal de Cromwell Road.",
+          "image": "images/d3-s2.jpg",
+          "audioguide": {
+            "guide_id": "03_dia_lunes_british_museum_historia_natural",
+            "track_number": 9,
+            "title": "Natural History Museum: La Escalera Mecánica hacia el Centro de la Tierra (Earth Hall)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.4967,-0.1764&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.4967,-0.1764&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "subway",
+            "mode_label": "Metro District Line",
+            "duration": "10 min",
+            "distance": "4,2 km",
+            "instructions": "Salida a las 16:25 h hacia la estación South Kensington. Metro directo en línea District (andén dirección este) hasta Westminster (5 paradas, 10 min de tren). Salida hacia Parliament Square y fila en la North Door para el Choral Evensong de las 17:00 h.",
+            "to_stop_name": "Abadía de Westminster (Choral Evensong) & Big Ben",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.4967,-0.1764&destination=51.4994,-0.1273&travelmode=transit"
+          },
+          "details": {
+            "official_website": "https://www.nhm.ac.uk",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Museo_de_Historia_Natural_(Londres)",
+            "opening_hours": "Diario: 10:00–17:50 (Reserva confirmada a las 14:30 h, Ref: 20260919-S17641437)",
+            "admission": "Gratuito (Reserva previa online confirmada)",
+            "metro_station": "South Kensington (Piccadilly, District, Circle lines)",
+            "address": "Cromwell Road, London SW7 5BD",
+            "curiosities": "Conocido como la 'Catedral de la Naturaleza' victoriana, construido en terracota en 1881 por Alfred Waterhouse. El majestuoso Hintze Hall está presidido por el esqueleto real de 25 metros de la ballena azul 'Hope' suspendido del techo. Famoso por su galería de dinosaurios con un T-Rex animatrónico a tamaño real.",
+            "practical_tips": "Acceso rápido: usad la entrada secundaria de Exhibition Road (Earth Hall) con su escalera mecánica que atraviesa un globo terráqueo gigante de cobre, con mucha menos cola que Cromwell Road."
+          }
+        },
+        {
+          "id": "d3-s3",
+          "stop_number": 3,
+          "catalog_id": "10",
+          "name": "Abadía de Westminster (Choral Evensong) & Big Ben",
+          "category": "Monumento Histórico & Culto Coral",
+          "icon": "church",
+          "time_window": "16:40 – 18:15",
+          "duration": "1h 35 min",
+          "coords": [
+            51.4994,
+            -0.1273
+          ],
+          "description": "El templo gótico de las coronaciones reales británicas desde 1066. Acceso libre y 100% gratuito por la North Door para el solemne servicio litúrgico cantado de las 17:00 h (Choral Evensong), con coro y gran órgano dentro del Quire tallado en madera. Al salir a las 17:45 h, postal inolvidable del Big Ben y las Casas del Parlamento iluminándose al caer la noche.",
+          "hack": "Acceso 100% gratuito sin pagar la entrada turística de £27. Llegad a la North Door (Parliament Square) entre las 16:35 y 16:45 h (a las 17:00 h cierran puertas). Se exige silencio reverente; fotos y vídeos estrictamente prohibidos durante el culto.",
+          "image": "images/d2-s2.jpg",
+          "audioguide": {
+            "guide_id": "02_dia_domingo_westminster_national_gallery_london_eye",
+            "track_number": 3,
+            "title": "La Abadía de Westminster (Westminster Abbey)"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.4994,-0.1273&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.4994,-0.1273&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie / Metro",
+            "duration": "15 min",
+            "distance": "1,2 km",
+            "instructions": "Al salir a las 17:45 h frente al Big Ben iluminado: Opción A a pie hacia Covent Garden y Soho (15 min paseando por Whitehall y Trafalgar), o Opción B tomando la línea District o Circle hacia Notting Hill Gate (18 min).",
+            "to_stop_name": "Opción A: Cena en Covent Garden & Soho",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.4994,-0.1273&destination=51.5117,-0.1246&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.westminster-abbey.org",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Abad%C3%ADa_de_Westminster",
+            "opening_hours": "Choral Evensong: 17:00–17:45 h (Puertas abren 16:35 h)",
+            "admission": "100% Gratuito (Sin reserva previa)",
+            "metro_station": "Westminster (Jubilee, District, Circle lines)",
+            "address": "20 Deans Yd, London SW1P 3PA",
+            "curiosities": "El Choral Evensong es una tradición viva desde el siglo XVI. Los asistentes se sientan en el histórico Quire gótico donde resuena la polifonía del coro de hombres y niños de la abadía. Al terminar a las 17:45 h coincide exactamente con la hora azul y el encendido de las luces del Big Ben y Westminster Bridge.",
+            "practical_tips": "Ubicad la North Door (Puerta Norte) en el lateral norte de la abadía. Formad fila sobre las 16:35 h. Tras el oficio, cruzad unos metros hacia Westminster Bridge para la clásica foto nocturna de las Casas del Parlamento reflejadas en el Támesis."
+          }
+        },
+        {
+          "id": "d3-s4",
+          "stop_number": 4,
+          "catalog_id": "8",
+          "name": "Opción A: Cena y Ambiente por Covent Garden & Soho",
+          "category": "Paseo Nocturno & Gastronomía",
+          "icon": "utensils",
+          "time_window": "18:30 – 21:00",
+          "duration": "2h 30 min",
+          "coords": [
+            51.5117,
+            -0.1246
+          ],
+          "description": "El West End en su momento más vibrante y luminoso. Paseo desde Westminster por Whitehall o metro directo a Covent Garden Piazza, Seven Dials y las animadas calles iluminadas de Soho, con ambiente de teatros, artistas callejeros y grandes opciones para cenar.",
+          "hack": "Si queréis cenar en Dishoom Covent Garden (el legendario café iraní de Bombay), id sobre las 18:30–19:00 h; la cola avanza rápido mientras os sirven té chai caliente de cortesía. Como alternativa informal rápida, Seven Dials Market tiene decenas de puestos bajo techo.",
+          "image": "images/d2-s8.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5117,-0.1246&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5117,-0.1246&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "dinner",
+            "type_label": "Cena",
+            "title": "Covent Garden & Soho (Opción A)",
+            "time_window": "19:00 – 20:45 h",
+            "notes": "Ambiente bullicioso en pleno corazón teatral. Vuelta al hotel facilísima: línea Northern desde Leicester Square/Charing Cross a Moorgate en 10 min, o línea Central desde Holborn/Tottenham Court Road a Liverpool Street en 8 min.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "Dishoom Covent Garden",
+                "category": "🇮🇳 Legendario Café Iraní de Bombay",
+                "location": "12 Upper St Martin's Ln",
+                "rating": "4.6 ★",
+                "highlight_dish": "El restaurante de culto indiscutible de Londres: black daal cocinado a fuego lento durante 24 horas, chicken ruby, biryani y naan recién horneado. Decoración colonial de los años 30 inigualable.",
+                "price_range": "£18 – £24 / pers (£54 – £72 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Dishoom+Covent+Garden+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Seven Dials Market",
+                "category": "🍔 Mercado Gastronómico Gourmet Bajo Techo",
+                "location": "Earlham St (Seven Dials)",
+                "rating": "4.5 ★",
+                "highlight_dish": "Antiguo almacén de plátanos reconvertido en mercado gourmet con dos plantas: smash burgers de Truffle Burger, tacos mexicanos artesanos, pasta fresca de Cheese Wheel y baos al vapor.",
+                "price_range": "£13 – £17 / pers (£39 – £51 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Seven+Dials+Market+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "The Porterhouse Covent Garden",
+                "category": "🇬🇧 Pub Laberíntico Tradicional de 7 Niveles",
+                "location": "21-22 Maiden Ln",
+                "rating": "4.4 ★",
+                "highlight_dish": "Uno de los pubs más singulares de Londres, construido en 7 medios niveles de madera y cobre. Sirve pies tradicionales británicos, hamburguesas y sus premiadas stouts artesanas.",
+                "price_range": "£15 – £20 / pers (£45 – £60 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Porterhouse+Covent+Garden+London"
+              }
+            ]
+          },
+          "transit_to_next": {
+            "mode": "subway",
+            "mode_label": "Alternativa B (Notting Hill)",
+            "duration": "18 min",
+            "distance": "6 km",
+            "instructions": "Si preferís la atmósfera bohemia de Kensington: metro directo en District o Circle Line desde Westminster a Notting Hill Gate para cenar en The Churchill Arms.",
+            "to_stop_name": "Opción B: Cena en Notting Hill (The Churchill Arms)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.4994,-0.1273&destination=51.507,-0.194&travelmode=transit"
+          },
+          "details": {
+            "official_website": "https://www.coventgarden.london",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Covent_Garden",
+            "opening_hours": "Piazza y calles abiertas 24/7 | Restaurantes hasta 23:00–23:30",
+            "admission": "Paseo libre gratuito",
+            "metro_station": "Covent Garden (Piccadilly) / Leicester Square (Northern, Piccadilly) / Charing Cross",
+            "address": "The Market, London WC2E 8RF",
+            "curiosities": "Covent Garden y Soho son el epicentro de la vida nocturna londinense. Pasear de noche por Neal's Yard iluminado y Seven Dials con sus siete calles radiales adoquinadas es una de las experiencias más mágicas de la ciudad.",
+            "practical_tips": "Para volver al hotel tras la cena, podéis coger la línea Northern directa desde Leicester Square hasta Moorgate (10 min) o la Central Line desde Tottenham Court Road/Holborn directa a Liverpool Street."
+          }
+        },
+        {
+          "id": "d3-s5",
+          "stop_number": 5,
+          "catalog_id": "29",
+          "name": "Opción B: Cena en Notting Hill (The Churchill Arms)",
+          "category": "Pub Histórico & Encanto Bohemio",
+          "icon": "wine",
+          "time_window": "18:30 – 21:00",
+          "duration": "2h 30 min",
+          "coords": [
+            51.507,
+            -0.194
+          ],
+          "description": "El pub más icónico y fotografiado de Inglaterra. De noche su fachada exterior se convierte en un espectáculo deslumbrante de miles de flores y cientos de lucecitas cálidas. En su interior victoriano lleno de reliquias de Winston Churchill alberga un restaurante tailandés acogedor con una cocina aromática de primer nivel a precios muy asequibles.",
+          "hack": "Metro directo desde Westminster en línea District o Circle hasta Notting Hill Gate (18 min). Para la vuelta al hotel en City Road: la Central Line (roja) os lleva directos de Notting Hill Gate a Liverpool Street en solo 18 minutos sin cambiar de tren.",
+          "image": "images/d3-s4.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.507,-0.194&travelmode=transit",
+            "apple_maps": "https://maps.apple.com/?daddr=51.507,-0.194&dirflg=r"
+          },
+          "meal": {
+            "meal_type": "dinner",
+            "type_label": "Cena",
+            "title": "Notting Hill (The Churchill Arms - Opción B)",
+            "time_window": "19:00 – 20:45 h",
+            "notes": "Cena en el pub floral más famoso de Londres. Al terminar, entrada al metro Notting Hill Gate y Central Line directa a Liverpool Street.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "The Churchill Arms",
+                "category": "🇬🇧 Pub Floral Legendario & Cocina Thai",
+                "location": "119 Kensington Church St",
+                "rating": "4.5 ★",
+                "highlight_dish": "El pub más fotografiado de toda Inglaterra, con fachada completamente cubierta por miles de flores y cientos de bombillas cálidas nocturnas. En su interior sirve excelente y asequible cocina tailandesa de taberna (pad thai, curry verde y arroces aromáticos por £14–17) con cerveza inglesa.",
+                "price_range": "£16 – £21 / pers (£48 – £63 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Churchill+Arms+119+Kensington+Church+St+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Pizza Pilgrims Notting Hill Gate",
+                "category": "🇮🇹 Pizzas Napolitanas de Masa Madre",
+                "location": "80 Notting Hill Gate",
+                "rating": "4.6 ★",
+                "highlight_dish": "Masa ligera de fermentación lenta, salsa de tomate San Marzano, mozzarella fior di latte o burrata cremosa fresca en pleno barrio de los anticuarios.",
+                "price_range": "£14 – £18 / pers (£42 – £54 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Pizza+Pilgrims+Notting+Hill+Gate+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "Honest Burgers Portobello",
+                "category": "🍔 Hamburguesas Gourmet en Portobello",
+                "location": "189 Portobello Rd",
+                "rating": "4.6 ★",
+                "highlight_dish": "Hamburguesas de ternera de pasto en una terraza victoriana en la calle más famosa de Notting Hill, acompañadas de sus patatas de romero caseras.",
+                "price_range": "£15 – £19 / pers (£45 – £57 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Honest+Burgers+189+Portobello+Rd+London"
+              }
+            ]
+          },
+          "transit_to_next": null,
+          "details": {
+            "official_website": "https://www.churchillarmskensington.co.uk",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/The_Churchill_Arms",
+            "opening_hours": "Lunes a sábado: 11:00–23:00 | Cocina thai hasta las 21:30",
+            "admission": "Entrada libre al pub",
+            "metro_station": "Notting Hill Gate (Central, District, Circle lines)",
+            "address": "119 Kensington Church St, London W8 7LN",
+            "curiosities": "Construido en 1790, sus abuelos fueron clientes habituales de Winston Churchill. Es célebre por gastar más de 25.000 £ al año en flores frescas que cubren su fachada de arriba abajo y por ser el primer pub de Londres en introducir un restaurante tailandés auténtico en su jardín de invierno trasero.",
+            "practical_tips": "Al llegar al pub, si la sala del restaurante thai está llena, podéis pedir mesa y esperar tomando una pinta en la barra admirando la impresionante colección de lámparas de latón, cacerolas de cobre y retratos de Churchill."
+          }
+        }
+      ],
+      "start_transit": {
+        "from": "Alojamiento (zona City / Liverpool Street)",
+        "to": "The British Museum",
+        "mode": "subway",
+        "mode_label": "Metro Central Line",
+        "duration": "18 min",
+        "distance": "3,5 km",
+        "instructions": "Paseo de 5 min a Liverpool Street. Metro directo en línea Central (andén dirección oeste) hasta Holborn o Tottenham Court Road (7 min tren). Paseo de 5 min subiendo por Museum St hasta la entrada norte de Montague Place.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5205,-0.0865&destination=51.5194,-0.127&travelmode=transit"
+      },
+      "end_transit": {
+        "from": "Notting Hill / South Kensington",
+        "to": "Alojamiento (zona City / Liverpool Street)",
+        "mode": "subway",
+        "mode_label": "Metro Central / District Line",
+        "duration": "18 min",
+        "distance": "7 km",
+        "instructions": "Desde Notting Hill Gate: metro Central Line directa a Liverpool Street en 14 min (o District Line desde South Kensington a Moorgate). Paseo de 5 min de vuelta al alojamiento.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.502,0.008&destination=51.5205,-0.0865&travelmode=transit"
+      }
+    },
+    {
+      "day_number": 4,
+      "date_label": "Martes, 13 de Octubre",
+      "title": "Magia en King's Cross, Espíritu de Camden y Despedida",
+      "subtitle": "Jardines en el cielo en Sky Garden, el mítico Andén 9 ¾, cultura urbana y mercadillos vintage.",
+      "color": "#C2185B",
+      "accent": "pink",
+      "badge": "Día 4 · Martes",
+      "highlights": [
+        "Sky Garden",
+        "Andén 9 ¾",
+        "Coal Drops Yard",
+        "Camden Town"
+      ],
+      "stops": [
+        {
+          "id": "d4-s1",
+          "stop_number": 1,
+          "catalog_id": "37",
+          "name": "Sky Garden (Planta 35 — 20 Fenchurch St)",
+          "category": "Mirador & Jardín Aéreo",
+          "icon": "sun",
+          "time_window": "10:15 – 11:15",
+          "duration": "1h",
+          "coords": [
+            51.5111,
+            -0.0837
+          ],
+          "description": "El rascacielos 'Walkie Talkie' alberga en sus tres últimas plantas un exuberante jardín botánico interior ajardinado con helechos arborescentes, higueras y terraza al aire libre sobre el Támesis.",
+          "hack": "Reserva confirmada a las 10:15 AM (Ref: 20260922-73072897). Apertura oficial a las 10:00 h. Ofrece una perspectiva cenital incomparable sobre The Shard y el Támesis con luz matinal limpia.",
+          "image": "images/d4-s1.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5111,-0.0837&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5111,-0.0837&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "subway",
+            "mode_label": "Metro Northern Line",
+            "duration": "18 min",
+            "distance": "4,1 km",
+            "instructions": "Caminar 3 min a la estación Bank / Monument. Tomar la línea Northern (andén dirección norte) directa en 9 min (4 paradas) hasta King's Cross St. Pancras. El carrito está en el vestíbulo principal.",
+            "to_stop_name": "Andén 9 ¾ (King's Cross Station)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5111,-0.0837&destination=51.5317,-0.1243&travelmode=transit"
+          },
+          "details": {
+            "official_website": "https://skygarden.london",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/20_Fenchurch_Street",
+            "opening_hours": "Mar-Vie: 10:00–18:00 (Reserva oficial confirmada: 10:15 AM, Ref: 20260922-73072897)",
+            "admission": "Gratuito (Reserva confirmada)",
+            "metro_station": "Monument (District, Circle) / Bank",
+            "address": "20 Fenchurch Street, London EC3M 3BY",
+            "curiosities": "Ubicado en el rascacielos apodado 'Walkie Talkie' diseñado por Rafael Viñoly. Es un colosal jardín botánico público de 3 plantas bajo una cúpula de cristal con terraza abierta al aire libre con vista frontal hacia el Shard y el Támesis.",
+            "practical_tips": "Nuestra visita confirmada a las 10:15 AM (apertura oficial a las 10:00) garantiza acceso ágil con luz natural limpia sobre el río Támesis y The Shard."
+          }
+        },
+        {
+          "id": "d4-s2",
+          "stop_number": 2,
+          "catalog_id": "7",
+          "name": "Andén 9 ¾ (King's Cross Station)",
+          "category": "Harry Potter",
+          "icon": "zap",
+          "time_window": "11:35 – 12:15",
+          "duration": "40 min",
+          "coords": [
+            51.5317,
+            -0.1243
+          ],
+          "description": "El mítico carrito de equipaje de Hogwarts incrustado en el muro de ladrillo con bufanda de tu casa favorita al viento, y la tienda oficial de Harry Potter decorada como la tienda de varitas de Ollivanders.",
+          "hack": "Llegar a las 11:35 AM permite hacer la foto con el carrito con menos de 15 minutos de fila. El personal presta bufandas de Gryffindor, Slytherin, Ravenclaw y Hufflepuff.",
+          "image": "images/d4-s2.jpg",
+          "audioguide": {
+            "guide_id": "04_dia_martes_kings_cross_camden",
+            "track_number": 1,
+            "title": "King's Cross: El Andén 9 ¾ y la Estación Mágica de St Pancras"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5317,-0.1243&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5317,-0.1243&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "2 min",
+            "distance": "150 m",
+            "instructions": "Salir del vestíbulo de King's Cross a la explanada exterior para contemplar la fachada gótica victoriana de St Pancras.",
+            "to_stop_name": "St Pancras Renaissance Hotel",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5317,-0.1243&destination=51.5305,-0.126&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.kingscross.co.uk/harry-potters-platform-9-34",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_King%27s_Cross",
+            "opening_hours": "Tienda y fotos: Lun-Sáb 09:00–21:00 | Dom 09:00–20:00",
+            "admission": "Gratuito (Foto libre con móvil personal)",
+            "metro_station": "King's Cross St. Pancras (6 líneas de metro)",
+            "address": "Euston Road, London N1 9AP",
+            "curiosities": "¡El plan especial de cumpleaños de Lucía! El punto exacto de partida del Expreso de Hogwarts hacia el Colegio de Magia y Hechicería. Un carrito portaequipajes con jaula de lechuza y baúles está empotrado en la pared de ladrillo con bufandas de las 4 casas al vuelo.",
+            "practical_tips": "Llegar a las 11:35 AM permite hacer la foto con poca fila (10-15 min). El personal os presta la bufanda y varita mágica gratis y podéis tomar tantas fotos como queráis con vuestro móvil sin pagar foto oficial."
+          }
+        },
+        {
+          "id": "d4-s3",
+          "stop_number": 3,
+          "catalog_id": "8",
+          "name": "St Pancras Renaissance Hotel",
+          "category": "Arquitectura & Cine",
+          "icon": "building",
+          "time_window": "12:15 – 12:30",
+          "duration": "15 min",
+          "coords": [
+            51.5305,
+            -0.126
+          ],
+          "description": "La monumental fachada gótica victoriana de ladrillo rojo de Sir George Gilbert Scott. Utilizada en 'La Cámara Secreta' como exterior de King's Cross de donde despega el Ford Anglia volador, y famosa por el videoclip 'Wannabe' de las Spice Girls.",
+          "hack": "La escalinata victoriana de hierro forjado y alfombra roja del vestíbulo interior es una obra maestra del diseño decimonónico.",
+          "image": "images/d4-s3.jpg",
+          "audioguide": {
+            "guide_id": "04_dia_martes_kings_cross_camden",
+            "track_number": 1,
+            "title": "King's Cross: El Andén 9 ¾ y la Estación Mágica de St Pancras"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5305,-0.126&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5305,-0.126&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie",
+            "duration": "5 min",
+            "distance": "400 m",
+            "instructions": "Pasear hacia el norte por Pancras Square (Google DeepMind) y King's Boulevard (Google Landscraper) hasta Granary Square y Coal Drops Yard.",
+            "to_stop_name": "Coal Drops Yard & King's Cross Tech Hub",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5305,-0.126&destination=51.5355,-0.125&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.stpancraslondon.com",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_St_Pancras",
+            "opening_hours": "Exterior visible 24/7",
+            "admission": "Gratuito",
+            "metro_station": "King's Cross St. Pancras",
+            "address": "Euston Road, London NW1 2AR",
+            "curiosities": "Obra maestra de la arquitectura neogótica victoriana de ladrillo rojo diseñada por Sir George Gilbert Scott en 1873. En 'Harry Potter y la Cámara Secreta', su fachada sirve como el exterior de King's Cross de donde despega el coche volador Ford Anglia de Arthur Weasley. También aquí se rodó el videoclip 'Wannabe' de las Spice Girls en su gran escalera interior.",
+            "practical_tips": "Se encuentra cruzando la calle al salir de King's Cross. La mejor toma fotográfica con gran angular se consigue desde el cruce de Pancras Road con Euston Road."
+          }
+        },
+        {
+          "id": "d4-s4",
+          "stop_number": 4,
+          "catalog_id": "49",
+          "name": "Coal Drops Yard & King's Cross Tech Hub",
+          "category": "Diseño & Vanguardia",
+          "icon": "cpu",
+          "time_window": "12:30 – 13:15",
+          "duration": "45 min",
+          "coords": [
+            51.5355,
+            -0.125
+          ],
+          "description": "Antiguos almacenes victorianos de carbón reconvertidos por Thomas Heatherwick en un centro de diseño vanguardista con tejados curvados que se besan. Distrito tecnológico donde se ubican las sedes europeas de Google y DeepMind.",
+          "hack": "Pasead junto a los canales de Regent's Canal en Granary Square con sus fuentes interactivas sincronizadas de agua.",
+          "image": "images/d4-s4.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5355,-0.125&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5355,-0.125&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie por Canal (o Metro)",
+            "duration": "15 min",
+            "distance": "1,2 km",
+            "instructions": "Paseo junto al sendero arbolado de Regent's Canal viendo barcazas históricas hasta Camden Lock, o metro Northern Line directo (King's Cross ➔ Camden Town, 4 min).",
+            "to_stop_name": "Camden Market, Camden Lock & Stables",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5355,-0.125&destination=51.5415,-0.1465&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://www.coaldropsyard.com",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/King%27s_Cross_(Londres)",
+            "opening_hours": "Espacio público abierto 24/7 (Tiendas y diseño: 10:00–19:00)",
+            "admission": "Gratuito",
+            "metro_station": "King's Cross St. Pancras",
+            "address": "Stable Street, London N1C 4DQ",
+            "curiosities": "Antiguos almacenes ferroviarios victorianos de carbón reconvertidos por el diseñador Thomas Heatherwick con dos tejados curvos de pizarra que parecen 'besarse' en el aire. Es el corazón del tech hub de Londres, flanqueado por la sede global de Google DeepMind (Pancras Square) y el nuevo campus 'Landscraper' de Google UK.",
+            "practical_tips": "Paseo peatonal ideal junto a las fuentes interactivas de Granary Square antes de tomar el camino del canal hacia Camden Town."
+          }
+        },
+        {
+          "id": "d4-s5",
+          "stop_number": 5,
+          "catalog_id": "20",
+          "name": "Camden Market, Camden Lock & Stables",
+          "category": "Mercado Alternativo & Comida",
+          "icon": "music",
+          "time_window": "13:30 – 15:30",
+          "duration": "2h",
+          "coords": [
+            51.5415,
+            -0.1465
+          ],
+          "description": "El complejo de mercados más alternativo y enérgico de Londres. Antiguos establos victorianos de caballos de tracción (*Stables Market*), exclusas de barcazas históricas en Camden Lock, estatuas de bronce de Amy Winehouse y cientos de puestos de comida callejera global.",
+          "hack": "Almuerzo estelar de cumpleaños: Yorkshire Burrito, Nanny Bill's smash burgers, halloumi fries y pasta en rueda de queso Grana Padano en West Yard.",
+          "image": "images/d4-s5.jpg",
+          "audioguide": {
+            "guide_id": "04_dia_martes_kings_cross_camden",
+            "track_number": 2,
+            "title": "Camden Town: Las Esclusas de Camden Lock y Regent's Canal"
+          },
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5415,-0.1465&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5415,-0.1465&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "lunch",
+            "type_label": "🎂 Almuerzo Especial de Cumpleaños de Lucía",
+            "title": "Camden Market & Camden Lock",
+            "time_window": "13:30 – 15:30 h",
+            "notes": "A las 13:30 h Camden está a pleno rendimiento: todos los puestos de West Yard y North Yard abiertos. El almuerzo estrella para celebrar los 17 años de Lucía.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "Yorkshire Burrito & Oli Baba's",
+                "category": "🌯 El Icono Gastronómico de Camden",
+                "location": "Camden Lock Market (West Yard)",
+                "rating": "4.6 ★",
+                "highlight_dish": "La sensación gastronómica viral: Yorkshire Burrito (un inmenso Yorkshire pudding inflado enrollado como un burrito relleno de ternera asada rosbif tierna, patatas asadas crujientes y salsa gravy caliente para mojar, £11.50). De acompañamiento: las famosas Halloumi Fries con sirope de granada de Oli Baba's (£8).",
+                "price_range": "£13 – £17 / pers (£39 – £51 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Yorkshire+Burrito+Camden+Market+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Nanny Bill's Camden",
+                "category": "🍔 Mejores Smash Burgers del Reino Unido",
+                "location": "North Yard (The Stables Market)",
+                "rating": "4.7 ★",
+                "highlight_dish": "Galardonadas oficialmente como las mejores smashburgers de Londres. La 'Dalston Burger' (doble carne madurada smash, queso americano fundido, cebolla pochada y mostaza en pan brioche dorado) y sus legendarias croquetas de macarrones con queso (Mac & Cheese croquettes) bañadas en salsa gravy.",
+                "price_range": "£15 – £20 / pers (£45 – £60 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Nanny+Bills+Camden+Market+London"
+              },
+              {
+                "option_letter": "C",
+                "name": "The Cheese Wheel",
+                "category": "🧀 Pasta en Rueda de Queso Grana Padano",
+                "location": "West Yard (Camden Lock)",
+                "rating": "4.6 ★",
+                "highlight_dish": "Espectáculo culinario: pasta fresca recién cocida que se vierte y remueve directamente en el interior de una rueda gigante de queso Grana Padano de 40 kg, fundiéndose el queso al calor de la pasta con virutas de trufa negra, setas o panceta crujiente (£11 – £13.50).",
+                "price_range": "£12 – £16 / pers (£36 – £48 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=The+Cheese+Wheel+Camden+Market+London"
+              }
+            ]
+          },
+          "transit_to_next": {
+            "mode": "subway",
+            "mode_label": "Metro Northern Line",
+            "duration": "18 min",
+            "distance": "4,8 km",
+            "instructions": "Caminar 3 min a metro Camden Town. Tomar la línea Northern directa (10 min tren) hasta Moorgate / Liverpool Street. Caminar 5 min por Bishopsgate hacia Spitalfields Market.",
+            "to_stop_name": "Old Spitalfields Market",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5415,-0.1465&destination=51.5198,-0.0754&travelmode=transit"
+          },
+          "details": {
+            "official_website": "https://www.camdenmarket.com",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Camden_Market",
+            "opening_hours": "Diario: 10:00–18:00+",
+            "admission": "Entrada libre y gratuita",
+            "metro_station": "Camden Town / Chalk Farm (Northern line)",
+            "address": "Camden Lock Place, London NW1 8AF",
+            "curiosities": "El mercado más icónico, alternativo y juvenil de Londres. The Stables Market ocupa las antiguas caballerizas victorianas del ferrocarril con esculturas de bronce de caballos y la estatua homenaje a Amy Winehouse a tamaño real. Cientos de tiendas de ropa vintage, moda punk, discos y arte.",
+            "practical_tips": "Comida de celebración de cumpleaños en los puestos gastronómicos de Camden Lock junto al canal: halloumi fries, birria tacos, noodles y helados artesanales en nitrógeno líquido."
+          }
+        },
+        {
+          "id": "d4-s6",
+          "stop_number": 6,
+          "catalog_id": "46",
+          "name": "Old Spitalfields Market",
+          "category": "Mercado Gourmet & Diseño",
+          "icon": "shopping-cart",
+          "time_window": "15:50 – 16:30",
+          "duration": "40 min",
+          "coords": [
+            51.5198,
+            -0.0754
+          ],
+          "description": "Mercado cubierto victoriano restaurado con una cuidada selección de puestos de diseñadores locales independientes, artesanía británica, vinilos y repostería gourmet. A solo 5 minutos a pie de Liverpool Street.",
+          "hack": "Lugar perfecto para comprar recuerdos de calidad y hacer un último dulce en Humble Crumble antes de recoger maletas en el hotel.",
+          "image": "images/d4-s6.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5198,-0.0754&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5198,-0.0754&dirflg=w"
+          },
+          "meal": {
+            "meal_type": "snack",
+            "type_label": "☕ Merienda / Despedida Pre-Autobús",
+            "title": "Old Spitalfields Market & Liverpool Street",
+            "time_window": "15:50 – 16:30 h",
+            "notes": "A 5 minutos a pie de la estación de Liverpool Street. Ideal para el broche dulce del cumpleaños antes de recoger maletas y subir al bus a Stansted.",
+            "options": [
+              {
+                "option_letter": "A",
+                "name": "Humble Crumble Spitalfields",
+                "category": "🇬🇧 El Postre Británico de Despedida",
+                "location": "Old Spitalfields Market (Crispin Place)",
+                "rating": "4.7 ★",
+                "highlight_dish": "El primer bar de crumble artesanal del mundo. Elige base de manzana asada con canela y frutos rojos del bosque, cubierta de crumble crujiente horneado, bañado en crema caliente de natillas inglesas (vanilla custard) y coronado con malvavisco tostado al soplete (£6.50 – £8.50).",
+                "price_range": "£7 – £10 / pers (£21 – £30 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Humble+Crumble+Spitalfields+Market+London"
+              },
+              {
+                "option_letter": "B",
+                "name": "Crosstown Doughnuts & Bishopsgate Cafés",
+                "category": "🍩 Donuts de Masa Madre & Café de Especialidad",
+                "location": "Spitalfields / Bishopsgate",
+                "rating": "4.6 ★",
+                "highlight_dish": "Donuts artesanos de masa madre con glaseados naturales (chocolate negro de Sri Lanka, canela o vainilla de Madagascar) y café de especialidad antes de recoger mochilas y subir al bus a Stansted.",
+                "price_range": "£5 – £8 / pers (£15 – £24 total 3)",
+                "maps_url": "https://www.google.com/maps/search/?api=1&query=Crosstown+Doughnuts+Spitalfields+London"
+              }
+            ]
+          },
+          "transit_to_next": {
+            "mode": "walk",
+            "mode_label": "A pie (Bishopsgate)",
+            "duration": "5 min",
+            "distance": "300 m",
+            "instructions": "Paseo de 3 min desde el mercado cruzando Brushfield St hacia Liverpool Street Station / Bishopsgate. Recogida rápida de mochilas en la consigna Bounce/Stasher a las 17:20 h y presentación en la dársena para el autobús confirmado de las 17:47 h.",
+            "to_stop_name": "Salida Bus a Stansted (Liverpool Street)",
+            "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5198,-0.0754&destination=51.5185,-0.0805&travelmode=walking"
+          },
+          "details": {
+            "official_website": "https://oldspitalfieldsmarket.com",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Old_Spitalfields_Market",
+            "opening_hours": "Diario: 10:00–18:00",
+            "admission": "Entrada libre y gratuita",
+            "metro_station": "Liverpool Street (Central, Circle, Elizabeth Line)",
+            "address": "16 Horner Square, London E1 6EW",
+            "curiosities": "Mercado cubierto de estilo victoriano fundado originariamente en 1638 por orden del Rey Carlos I. Es hoy un centro de artesanía de vanguardia, diseñadores emergentes británicos, joyería de autor y pastelerías gourmet.",
+            "practical_tips": "Visita relajada de 15:50 a 17:15 h para disfrutar de los puestos y tomar un postre en Humble Crumble. A las 17:15–17:20 h caminamos 3 min hacia Bishopsgate para recoger las mochilas en la consigna y subir al autobús confirmado de las 17:47 h."
+          }
+        },
+        {
+          "id": "d4-s7",
+          "stop_number": 7,
+          "catalog_id": "47",
+          "name": "Salida Bus a Stansted (Liverpool Street)",
+          "category": "Transporte al Aeropuerto",
+          "icon": "bus",
+          "time_window": "17:20 – 17:47",
+          "duration": "Salida 17:47 h",
+          "coords": [
+            51.5185,
+            -0.0805
+          ],
+          "description": "Dársenas de autobuses de Liverpool Street Station (Bishopsgate). Salida a las 17:47 h en el servicio directo de autobús National Express hacia el Aeropuerto de Stansted (llegada 19:15 h, exactamente 2 horas antes del vuelo Ryanair FR7700 de las 21:15 h).",
+          "hack": "Con la tarifa Multihorario (Change & Go) contáis con flexibilidad de ±12 horas. A las 17:20 h recogéis las mochilas en el local concertado de Bounce / Stasher en Bishopsgate (a 50 m) y podéis subir tanto al autobús de las 17:47 h como a cualquier otro sin recargo.",
+          "image": "images/d4-s7.jpg",
+          "audioguide": null,
+          "navigation": {
+            "google_maps": "https://www.google.com/maps/dir/?api=1&destination=51.5185,-0.0805&travelmode=walking",
+            "apple_maps": "https://maps.apple.com/?daddr=51.5185,-0.0805&dirflg=w"
+          },
+          "meal": null,
+          "transit_to_next": null,
+          "details": {
+            "official_website": "https://www.nationalexpress.com",
+            "wikipedia_url": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_Liverpool_Street",
+            "opening_hours": "Salida confirmada del autobús reservado: 17:47 h (Presentación en dársena: 17:20–17:25 h)",
+            "admission": "Billete confirmado con tarifa Multihorario (£95.40 total i/v 3 pers)",
+            "metro_station": "Liverpool Street (Estación principal de tren y metro)",
+            "address": "Liverpool Street Station, London EC2M 7QH",
+            "curiosities": "Servicio de autobús directo National Express desde Liverpool Street (Bishopsgate) hasta la terminal del Aeropuerto de London Stansted (STN). Con salida a las 17:47 h y llegada a las 19:15 h, disponemos de 2 horas exactas de margen antes del vuelo de regreso FR7700 de las 21:15 h.",
+            "practical_tips": "El punto de consigna de Bounce / Stasher en Bishopsgate queda justo enfrente de la dársena del autobús. Gracias al billete Multihorario, podéis subir al autobús de las 17:47 h o a cualquier salida anterior/posterior según vuestro ritmo."
+          }
+        }
+      ],
+      "start_transit": {
+        "from": "Alojamiento (Travelodge City Road)",
+        "to": "Sky Garden (vía Consigna Liverpool St)",
+        "mode": "walk",
+        "mode_label": "A pie (Dejar mochilas en consigna)",
+        "duration": "18 min",
+        "distance": "1,3 km",
+        "instructions": "Salida a las 09:30 h con check-out. Paseo de 8 min por Finsbury Square hasta Liverpool Street / Bishopsgate para dejar las mochilas en el punto concertado de Bounce o Stasher (o consigna oficial de la estación). A continuación, paseo libre de 10 min hacia el sur hasta la torre 'Walkie Talkie' (Sky Garden, 20 Fenchurch St) para acceder a la reserva de las 10:15 AM con control de seguridad ágil (sin equipaje).",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5205,-0.0865&destination=51.5111,-0.0837&travelmode=walking"
+      },
+      "end_transit": {
+        "from": "Liverpool Street Station (Bishopsgate)",
+        "to": "Aeropuerto de London Stansted (STN)",
+        "mode": "bus",
+        "mode_label": "Autobús National Express A8/A9",
+        "duration": "1h 28 min",
+        "distance": "55 km",
+        "instructions": "Salida confirmada a las 17:47 h en el autobús de National Express directo hacia Stansted Airport (llegada 19:15 h). Margen de 2 horas exactas en la terminal antes del vuelo de regreso de las 21:15 h.",
+        "maps_url": "https://www.google.com/maps/dir/?api=1&origin=51.5185,-0.0805&destination=51.8860,0.2389&travelmode=transit"
+      }
+    }
+  ],
+  "gastronomy_guide": {
+    "multicultural_gems": [
+      {
+        "rank": 1,
+        "name": "Dishoom",
+        "tag": "🇮🇳 Cocina Irani-Bombay",
+        "subtitle": "La experiencia culinaria #1 de Londres",
+        "rating": "4.6 ★ (>12.500 op.)",
+        "locations": [
+          "Shoreditch (7 Boundary St - 7 min del alojamiento)",
+          "Covent Garden (12 Upper St Martin's Lane)"
+        ],
+        "why_visit": "Homenaje a los antiguos cafés iraníes de Bombay de los años 60, con decoración colonial exquisita, música jazz de fondo y un servicio legendario.",
+        "must_order": "House Black Daal (lentejas negras 24h, £8.50), Chicken Ruby (estilo butter chicken aterciopelado, £14.50), Garlic Naan (£3.90) y calamares con lima.",
+        "budget": "~£18 – £24 / pers (~£54 – £72 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dishoom+London"
+      },
+      {
+        "rank": 2,
+        "name": "Marugame Udon",
+        "tag": "🇯🇵 Fideos Udon Gruesos en Directo (Sin Ramen)",
+        "subtitle": "Rápido, divertido y baratísimo",
+        "rating": "4.5 ★ (>3.200 op.)",
+        "locations": [
+          "Liverpool Street (110 Bishopsgate - 8 min alojamiento)",
+          "Waterloo (frente al London Eye)"
+        ],
+        "why_visit": "Fideos gruesos de trigo Sanuki udon amasados y hervidos en directo. Pasas con bandeja, recoges tu tazón de fideos con caldo aromático o curry japonés y eliges tempuras recién fritas.",
+        "must_order": "Chicken Katsu Curry Udon (£9.95) o BK Udon con ternera dulce (£8.50). Tempuras en mostrador (£1.80–£2.25) y barra libre gratuita de cebollino y tenkasu.",
+        "budget": "~£10 – £14 / pers (~£30 – £42 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Marugame+Udon+London"
+      },
+      {
+        "rank": 3,
+        "name": "Seven Dials Market",
+        "tag": "🌮 Almacén de Plátanos Multicocina",
+        "subtitle": "El salvavidas familiar en Covent Garden",
+        "rating": "4.6 ★ (>7.800 op.)",
+        "locations": [
+          "Covent Garden / Seven Dials (35 Earlham St)"
+        ],
+        "why_visit": "Antiguo almacén victoriano con 15 puestos independientes del mundo. Si uno quiere tacos mexicanos, otro fideos asiáticos y otro hamburguesas o queso, cada uno pide lo suyo y coméis juntos.",
+        "must_order": "Tacos al pastor y de birria en Los Gordos, pollo a la brasa filipino en Filishack, cestas de baozi en BaoziInn o cinta de quesos en Pick & Cheese.",
+        "budget": "~£12 – £17 / pers (~£36 – £51 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Seven+Dials+Market+London"
+      },
+      {
+        "rank": 4,
+        "name": "La 'Milla del Pho' Vietnamita en Kingsland Road",
+        "tag": "🇻🇳 Sopas Humeantes de Otoño",
+        "subtitle": "Sông Quê Café & Viet Grill",
+        "rating": "4.5 ★ (>2.900 op.)",
+        "locations": [
+          "Sông Quê Café (134 Kingsland Rd)",
+          "Viet Grill (58 Kingsland Rd)"
+        ],
+        "why_visit": "A 10 min a pie al norte de la City, la mayor concentración de tabernas vietnamitas familiares de Londres. Para una tarde fresca de otoño, nada sienta mejor que un bol de sopa humeante.",
+        "must_order": "Phở Tái Lăn (caldo de ternera aromatizado 12 horas con canela, anís y jengibre, láminas de ternera salteada con ajo y hierbas frescas, £11.50) y rollitos Chả Giò.",
+        "budget": "~£13 – £17 / pers (~£39 – £51 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Song+Que+Cafe+134+Kingsland+Rd+London"
+      },
+      {
+        "rank": 5,
+        "name": "Le Bab",
+        "tag": "🥙 Kebabs Gourmet Levantinos",
+        "subtitle": "Carnes al carbón vegetal y masa madre",
+        "rating": "4.5 ★ (>2.200 op.)",
+        "locations": [
+          "Covent Garden (Mercer Walk)",
+          "Soho (Kingly Court)"
+        ],
+        "why_visit": "Londres reinventando la cocina callejera de Oriente Medio. Carnes de pasto marinadas al carbón, panes planos recién horneados y salsas caseras.",
+        "must_order": "Kebab de pollo al carbón con hummus casero y pimientos asados (£12.50), y sus famosas Fondue Fries con salsa de queso fundido.",
+        "budget": "~£14 – £19 / pers (~£42 – £57 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Le+Bab+Covent+Garden+London"
+      },
+      {
+        "rank": 6,
+        "name": "Eat Tokyo",
+        "tag": "🍣 Taberna Japonesa Tradicional (Izakaya)",
+        "subtitle": "La favorita de la comunidad nipona en Londres",
+        "rating": "4.5 ★ (>2.800 op.)",
+        "locations": [
+          "Soho (16 Old Compton St)",
+          "Covent Garden (27 Catherine St)",
+          "Holborn (90 High Holborn - 6 min British Museum)"
+        ],
+        "why_visit": "Cero postureo: cartas amplias con fotos, ambiente tokiota auténtico y bandejas de sushi y maki rolls fresquísimos, platos calientes de teriyaki y bentos colosales.",
+        "must_order": "Tokyo Bento Boxes completísimas (£14.50–£17.50), Sushi & Maki Boat para compartir (£24–£38) y Chicken Katsu Curry crujiente con salsa casera.",
+        "budget": "~£15 – £22 / pers (~£45 – £66 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Eat+Tokyo+London"
+      },
+      {
+        "rank": 7,
+        "name": "Four Seasons Chinatown & Master Wei",
+        "tag": "🥢 Auténtica Gastronomía China",
+        "subtitle": "El Rey del Pato Asado y Fideos Biang Biang",
+        "rating": "4.3 ★ / 4.5 ★ (>4.900 op. combinadas)",
+        "locations": [
+          "Four Seasons (11-12 Gerrard St / 23 Wardour St, Chinatown)",
+          "Master Wei (13 Cosmo Place, Bloomsbury)"
+        ],
+        "why_visit": "Dos instituciones cumbre: Four Seasons tiene el mejor pato laqueado cantonés de Europa; Master Wei es el templo de los fideos anchos estirados a mano de Shaanxi.",
+        "must_order": "En Four Seasons: Special Roasted Duck (£18.50 medio pato), arroz Yeung Chow y dim sum. En Master Wei: Biang Biang Noodles (£12.50) y bocadillos Rou Jia Mo (£6.20).",
+        "budget": "~£14 – £21 / pers (~£42 – £63 total 3)",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Four+Seasons+Chinatown+London"
+      }
+    ],
+    "dining_tips": [
+      {
+        "icon": "droplet",
+        "title": "Tap Water (Agua del Grifo Gratuita)",
+        "description": "El agua del grifo en Londres es 100% potable, fresca y de excelente calidad. En cualquier restaurante, cafetería o pub podéis pedir 'Tap water, please' (o una jarra 'A jug of tap water'). Por ley británica es obligatoria y totalmente gratuita."
+      },
+      {
+        "icon": "receipt",
+        "title": "Service Charge (12.5% Discrecional)",
+        "description": "En casi todos los restaurantes con servicio de mesa añadirán automáticamente un 12.5% de 'Discretionary Service Charge' al final de la cuenta. Si está incluido, no es necesario dejar propina adicional en efectivo ni tarjeta."
+      },
+      {
+        "icon": "clock",
+        "title": "Sunday Roast (La Tradición del Domingo)",
+        "description": "El Sunday Roast se sirve exclusivamente los domingos a partir de las 12:00 h en la mayoría de pubs británicos tradicionales hasta agotar existencias. Para asegurar mesa en sitios emblemáticos como The Salisbury, es ideal acudir entre las 13:30 y las 14:30 h."
+      },
+      {
+        "icon": "credit-card",
+        "title": "Pagos 100% Cashless (Sin Efectivo)",
+        "description": "Prácticamente el 100% de los restaurantes, puestos de mercadillo callejero (Borough Market, Camden) y panaderías aceptan pago con tarjeta contactless o móvil (Apple Pay / Google Pay). No es necesario cambiar divisas a libras físicas para comer."
+      }
+    ]
+  },
+  "practical_tips": [
+    {
+      "category": "Transporte (Metro y Bus)",
+      "icon": "train",
+      "title": "Pago Contactless, Regla 1 Tarjeta por Persona y Daily Cap",
+      "description": "En TfL no compréis billetes sencillos ni Oyster física: usad contactless o móvil (Apple Pay / Google Pay). Regla obligatoria: cada viajero debe usar su propia tarjeta bancaria o dispositivo individual (no se puede pasar dos veces la misma tarjeta en el mismo torno para dos personas). El tope diario automático (*Daily Cap*) en Zonas 1-2 es de unas £8.50 a £8.90 para metro (Tube), autobús, DLR, Overground y Elizabeth line (a partir de alcanzarlo, los siguientes trayectos del día en la red urbana son gratuitos). AVISO IMPORTANTE: El barco fluvial Uber Boat y el teleférico IFS Cloud NO están incluidos en el Daily Cap; se abonan como servicios especiales independientes."
+    },
+    {
+      "category": "Enchufes y Electricidad",
+      "icon": "zap",
+      "title": "Adaptador Clavija UK (Tipo G)",
+      "description": "El Reino Unido utiliza enchufes de tres clavijas rectangulares a 230V. Llevad un adaptador universal y un ladrón o cargador múltiple USB para cargar todos los móviles y baterías portátiles por la noche."
+    },
+    {
+      "category": "Llamadas de Emergencia",
+      "icon": "phone",
+      "title": "Teléfonos Clave en Londres",
+      "description": "Emergencias policiales, bomberos y sanitarias: llamad al 999 (o 112). Para asistencia policial no urgente: llamad al 101. Consulado General de España en Londres (emergencias 24h): +44 7789 398 384."
+    },
+    {
+      "category": "Agua y Restauración",
+      "icon": "coffee",
+      "title": "Tap Water y Propinas",
+      "description": "En cualquier restaurante o pub podéis pedir 'Tap water, please' (agua de grifo): es de excelente calidad y es gratuita por ley en todo el Reino Unido. Muchos restaurantes incluyen automáticamente un 12.5% de 'Service Charge' opcional en la cuenta."
+    },
+    {
+      "category": "Equipaje y Consignas",
+      "icon": "briefcase",
+      "title": "Consigna de Mochilas el Último Día (Bounce / Stasher)",
+      "description": "El hotel Travelodge City Road NO dispone de servicio de consigna tras el check-out de las 09:30 h del martes. La solución óptima es dejar las mochilas en Liverpool Street Station (a 700 m del hotel, de camino al Sky Garden y punto exacto de salida del bus de vuelta a Stansted). Utilizad servicios verificados como Bounce (usebounce.com) o Stasher (stasher.com) en locales colaboradores de Bishopsgate: cuesta solo unas £3.50–£5 por mochila/día (con seguro hasta £10.000), ahorrando más de £30 respecto a la consigna oficial de la estación. Así hacéis Sky Garden, King's Cross y Camden sin cargar peso y las recogéis justo al subir al bus de regreso."
+    }
+  ]
+}
