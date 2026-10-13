@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Londres 2026 · Guía, Itinerario Interactivo & Audioguías</title>
+
+  <!-- PWA & Mobile Web App Meta -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="Guía interactiva de viaje a Londres con itinerarios día a día, navegación GPS a pie, mapa en tiempo real y 55 pistas de audioguías narradas en orden cronológico.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇬🇧</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#22c55e',
+              600: '#16a34a',
+            },
+            day1: '#D84315',
+            day2: '#1565C0',
+            day3: '#2E7D32',
+            day4: '#C2185B',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Leaflet.js CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans antialiased selection:bg-rose-500 selection:text-white">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo & Title -->
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-rose-600 via-indigo-600 to-sky-500 flex items-center justify-center text-xl shadow-lg shadow-rose-950/40">
+            🇬🇧
+          </div>
+          <div>
+            <h1 class="text-base sm:text-lg font-bold tracking-tight text-white flex items-center gap-2">
+              Londres 2026
+              <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-slate-300">
+                9 – 13 Oct
+              </span>
+            </h1>
+            <p class="text-xs text-slate-400 hidden sm:block">Itinerario Paso a Paso · Mapas GPS · 55 Audioguías Cronológicas</p>
+          </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="flex items-center gap-2">
+          <!-- Mobile Map Toggle Button -->
+          <button id="mobile-map-toggle" class="lg:hidden px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-medium flex items-center gap-1.5 transition-colors">
+            <i data-lucide="map" class="w-4 h-4 text-sky-400"></i>
+            <span id="mobile-map-toggle-text">Ver Mapa</span>
+          </button>
+
+          <!-- Audio Playlist Quick Trigger -->
+          <button id="header-audioguides-btn" class="hidden md:flex px-3 py-1.5 rounded-lg bg-indigo-600/20 hover:bg-indigo-600/30 border border-indigo-500/40 text-xs font-semibold text-indigo-300 items-center gap-1.5 transition-colors">
+            <i data-lucide="headphones" class="w-4 h-4 text-indigo-400 animate-pulse"></i>
+            <span>Audioguías</span>
+          </button>
+
+          <!-- Food Quick Trigger -->
+          <button id="header-food-btn" class="hidden md:flex px-3 py-1.5 rounded-lg bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/40 text-xs font-semibold text-amber-300 items-center gap-1.5 transition-colors">
+            <i data-lucide="utensils" class="w-4 h-4 text-amber-400"></i>
+            <span>Dónde Comer</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs: Días e Itinerarios (100% visibles en móvil) -->
+      <nav class="py-2 border-t border-slate-800/70" id="day-nav-pills" aria-label="Navegación por días del itinerario">
+        <!-- Fila 1: Selector principal de Días (5 botones, 100% visible en móvil sin scroll) -->
+        <div class="grid grid-cols-5 gap-1 sm:gap-2">
+          <button class="nav-pill active flex items-center justify-center gap-1 sm:gap-1.5 px-1 sm:px-3 py-2 rounded-xl text-center transition-all select-none" data-tab="all" title="Ver todo el viaje completo">
+            <i data-lucide="compass" class="w-3.5 h-3.5 text-sky-400 flex-shrink-0"></i>
+            <span class="font-bold text-[11px] sm:text-xs">
+              <span class="sm:hidden">Todo</span>
+              <span class="hidden sm:inline">Todo el Viaje</span>
+            </span>
+          </button>
+
+          <button class="nav-pill flex items-center justify-center gap-1 sm:gap-1.5 px-1 sm:px-3 py-2 rounded-xl text-center transition-all select-none" data-tab="1" title="Día 1: Sábado 10 Octubre · La City & Torre de Londres">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#D84315] flex-shrink-0 shadow-sm"></span>
+            <span class="font-bold text-[11px] sm:text-xs">
+              <span class="sm:hidden">D1 · Sáb</span>
+              <span class="hidden sm:inline">Día 1 · Sáb</span>
+            </span>
+          </button>
+
+          <button class="nav-pill flex items-center justify-center gap-1 sm:gap-1.5 px-1 sm:px-3 py-2 rounded-xl text-center transition-all select-none" data-tab="2" title="Día 2: Domingo 11 Octubre · Westminster & West End">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#1565C0] flex-shrink-0 shadow-sm"></span>
+            <span class="font-bold text-[11px] sm:text-xs">
+              <span class="sm:hidden">D2 · Dom</span>
+              <span class="hidden sm:inline">Día 2 · Dom</span>
+            </span>
+          </button>
+
+          <button class="nav-pill flex items-center justify-center gap-1 sm:gap-1.5 px-1 sm:px-3 py-2 rounded-xl text-center transition-all select-none" data-tab="3" title="Día 3: Lunes 12 Octubre · Kensington & Grandes Museos">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#2E7D32] flex-shrink-0 shadow-sm"></span>
+            <span class="font-bold text-[11px] sm:text-xs">
+              <span class="sm:hidden">D3 · Lun</span>
+              <span class="hidden sm:inline">Día 3 · Lun</span>
+            </span>
+          </button>
+
+          <button class="nav-pill flex items-center justify-center gap-1 sm:gap-1.5 px-1 sm:px-3 py-2 rounded-xl text-center transition-all select-none" data-tab="4" title="Día 4: Martes 13 Octubre · King's Cross & Camden">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#C2185B] flex-shrink-0 shadow-sm"></span>
+            <span class="font-bold text-[11px] sm:text-xs">
+              <span class="sm:hidden">D4 · Mar</span>
+              <span class="hidden sm:inline">Día 4 · Mar</span>
+            </span>
+          </button>
+        </div>
+
+        <!-- Fila 2: Guías Especiales (Audioguías, Dónde Comer, Consejos) -->
+        <div class="grid grid-cols-3 gap-1 sm:gap-2 mt-1.5">
+          <button class="nav-pill flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-xl text-center transition-all select-none" data-tab="audioguides" title="55 pistas de audioguías narradas en orden cronológico">
+            <i data-lucide="headphones" class="w-3.5 h-3.5 text-indigo-400 flex-shrink-0"></i>
+            <span class="font-semibold text-[11px] sm:text-xs truncate">
+              <span class="sm:hidden">Audioguías</span>
+              <span class="hidden sm:inline">Audioguías (55 Pistas)</span>
+            </span>
+          </button>
+
+          <button class="nav-pill flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-xl text-center transition-all select-none" data-tab="food" title="Restaurantes para comer y cenar cada día">
+            <i data-lucide="utensils" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i>
+            <span class="font-semibold text-[11px] sm:text-xs truncate">
+              <span class="sm:hidden">Dónde Comer</span>
+              <span class="hidden sm:inline">Dónde Comer (Restaurantes)</span>
+            </span>
+          </button>
+
+          <button class="nav-pill flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-xl text-center transition-all select-none" data-tab="tips" title="Transporte, enchufes y consejos prácticos">
+            <i data-lucide="lightbulb" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i>
+            <span class="font-semibold text-[11px] sm:text-xs truncate">
+              <span class="sm:hidden">Consejos</span>
+              <span class="hidden sm:inline">Consejos Prácticos</span>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Grid Layout -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 pb-48 sm:pb-52 lg:pb-56">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+
+      <!-- Left Column: Itinerary Stops & Content -->
+      <section id="content-container" class="lg:col-span-7 space-y-6 lg:block">
+        <!-- Rendered dynamically by app.js: Days Timeline / Audioguides / Tips -->
+        <div id="loading-spinner" class="py-20 text-center text-slate-400 flex flex-col items-center justify-center gap-3">
+          <div class="w-10 h-10 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin"></div>
+          <p class="text-sm font-medium">Cargando itinerarios y audioguías...</p>
+        </div>
+      </section>
+
+      <!-- Right Column: Interactive Map -->
+      <aside id="map-container-wrapper" class="lg:col-span-5 sticky top-28 hidden lg:block">
+        <div class="bg-slate-800/80 rounded-2xl border border-slate-700/80 p-2 shadow-2xl backdrop-blur-sm overflow-hidden">
+          <div class="flex items-center justify-between px-3 py-2 text-xs border-b border-slate-700/60 mb-2">
+            <span class="font-semibold text-slate-200 flex items-center gap-1.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-rose-400"></i>
+              Mapa Interactivo de Paradas
+            </span>
+            <div class="flex items-center gap-2">
+              <span id="map-stops-counter" class="text-slate-400">38 lugares</span>
+              <button id="mobile-map-close-btn" class="lg:hidden px-2 py-0.5 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 text-[11px] font-medium flex items-center gap-1 transition-colors" title="Volver a la lista">
+                <i data-lucide="list" class="w-3 h-3"></i>
+                <span>Lista</span>
+              </button>
+            </div>
+          </div>
+          <!-- Leaflet Map Container -->
+          <div id="map" class="w-full h-[calc(100vh-220px)] min-h-[440px] lg:h-[540px] rounded-xl z-10 shadow-inner"></div>
+          <div class="p-2.5 flex items-center justify-between text-[11px] text-slate-400 bg-slate-900/60 rounded-lg mt-2">
+            <div class="flex items-center gap-2">
+              <span class="inline-block w-2.5 h-2.5 rounded-full bg-[#D84315]" title="Día 1"></span> D1
+              <span class="inline-block w-2.5 h-2.5 rounded-full bg-[#1565C0]" title="Día 2"></span> D2
+              <span class="inline-block w-2.5 h-2.5 rounded-full bg-[#2E7D32]" title="Día 3"></span> D3
+              <span class="inline-block w-2.5 h-2.5 rounded-full bg-[#C2185B]" title="Día 4"></span> D4
+            </div>
+            <span class="text-slate-400 text-[10px]">Toca cualquier pin para abrir navegación a pie</span>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Floating Persistent Bottom Audio Player -->
+  <div id="audio-player-bar" class="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-lg border-t border-slate-800 shadow-[0_-8px_30px_rgba(0,0,0,0.5)] transition-transform duration-300">
+    <div class="max-w-7xl mx-auto px-4 py-2.5 sm:py-3">
+
+      <!-- Progress Bar (Scrubber) -->
+      <div class="flex items-center gap-2 mb-1.5">
+        <span id="player-time-current" class="text-[11px] font-mono text-slate-400 w-10 text-right">0:00</span>
+        <div class="relative flex-1 group cursor-pointer py-1" id="player-progress-container">
+          <div class="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden">
+            <div id="player-progress-fill" class="h-full bg-gradient-to-r from-indigo-500 to-rose-500 rounded-full w-0 transition-all"></div>
+          </div>
+        </div>
+        <span id="player-time-total" class="text-[11px] font-mono text-slate-400 w-10">0:00</span>
+      </div>
+
+      <!-- Player Content & Controls -->
+      <div class="flex items-center justify-between gap-3">
+
+        <!-- Track Details -->
+        <div class="flex items-center gap-3 min-w-0 max-w-[40%] sm:max-w-[45%]">
+          <div class="w-10 h-10 rounded-lg bg-indigo-600/30 border border-indigo-500/40 flex-shrink-0 flex items-center justify-center text-lg shadow-sm">
+            🎧
+          </div>
+          <div class="min-w-0">
+            <h4 id="player-track-title" class="text-xs sm:text-sm font-semibold text-white truncate">
+              Selecciona una pista para escuchar
+            </h4>
+            <p id="player-guide-title" class="text-[11px] text-slate-400 truncate">
+              55 pistas en orden cronológico con voz neural
+            </p>
+          </div>
+        </div>
+
+        <!-- Center Controls -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- Rewind 15s -->
+          <button id="btn-player-rewind" class="p-2 rounded-full hover:bg-slate-800 text-slate-300 hover:text-white transition-colors" title="Retroceder 15s">
+            <i data-lucide="rotate-ccw" class="w-4 h-4"></i>
+          </button>
+
+          <!-- Play / Pause -->
+          <button id="btn-player-play" class="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white flex items-center justify-center shadow-lg shadow-indigo-600/30 transition-all hover:scale-105 active:scale-95" title="Reproducir" aria-label="Reproducir">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-white ml-0.5">
+              <polygon points="6 3 20 12 6 21 6 3"></polygon>
+            </svg>
+          </button>
+
+          <!-- Forward 15s -->
+          <button id="btn-player-forward" class="p-2 rounded-full hover:bg-slate-800 text-slate-300 hover:text-white transition-colors" title="Avanzar 15s">
+            <i data-lucide="rotate-cw" class="w-4 h-4"></i>
+          </button>
+
+          <!-- Speed Selector Button -->
+          <button id="btn-player-speed" class="px-2 py-1 rounded bg-slate-800 hover:bg-slate-700 text-[11px] font-bold text-slate-300 hover:text-white border border-slate-700 transition-colors">
+            1.0x
+          </button>
+        </div>
+
+        <!-- Right Utilities -->
+        <div class="flex items-center gap-1.5 sm:gap-2">
+          <!-- Transcript Button -->
+          <button id="btn-player-transcript" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-medium flex items-center gap-1 transition-colors" title="Ver texto transcrito">
+            <i data-lucide="file-text" class="w-4 h-4 text-emerald-400"></i>
+            <span class="hidden sm:inline">Guion</span>
+          </button>
+
+          <!-- Full Playlist Drawer Button -->
+          <button id="btn-player-playlist" class="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-medium flex items-center gap-1 transition-colors" title="Lista de audioguías">
+            <i data-lucide="list-music" class="w-4 h-4 text-indigo-400"></i>
+            <span class="hidden sm:inline">Pistas</span>
+          </button>
+
+          <!-- Minimize Player Button -->
+          <button id="btn-player-minimize" class="px-2 sm:px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white border border-slate-700 text-xs font-medium flex items-center gap-1 transition-colors" title="Minimizar reproductor" aria-label="Minimizar reproductor">
+            <i data-lucide="chevron-down" class="w-4 h-4"></i>
+            <span class="hidden md:inline">Ocultar</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Restore Audio Player Pill -->
+  <button id="btn-player-restore" class="fixed bottom-4 right-4 z-40 hidden items-center gap-2 px-3.5 py-2.5 rounded-full bg-slate-900/95 hover:bg-slate-800 border border-indigo-500/60 shadow-[0_10px_25px_rgba(0,0,0,0.5)] text-white text-xs font-semibold backdrop-blur-md transition-all duration-200 hover:scale-105 active:scale-95 group" title="Mostrar reproductor de audio" aria-label="Mostrar reproductor de audio">
+    <span class="w-2.5 h-2.5 rounded-full bg-indigo-500 animate-pulse"></span>
+    <i data-lucide="headphones" class="w-4 h-4 text-indigo-400"></i>
+    <span id="player-restore-label" class="text-xs">Reproductor</span>
+    <i data-lucide="chevron-up" class="w-3.5 h-3.5 text-slate-400 group-hover:text-white transition-transform group-hover:-translate-y-0.5"></i>
+  </button>
+
+  <!-- Audio Element (Hidden) -->
+  <audio id="main-audio" preload="metadata"></audio>
+
+  <!-- Transcript Modal Dialog -->
+  <div id="transcript-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-slate-800 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+
+      <!-- Modal Header -->
+      <div class="px-5 py-4 border-b border-slate-700/80 flex items-center justify-between bg-slate-850">
+        <div class="min-w-0">
+          <span id="modal-track-badge" class="text-[11px] font-semibold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+            Audioguía
+          </span>
+          <h3 id="modal-track-title" class="text-base sm:text-lg font-bold text-white mt-1 truncate">
+            Título de la pista
+          </h3>
+        </div>
+        <button id="btn-close-modal" class="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-700/60 transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body (Scrollable) -->
+      <div id="modal-track-body" class="p-5 overflow-y-auto space-y-4 text-sm text-slate-200 leading-relaxed">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="px-5 py-3 border-t border-slate-700/80 bg-slate-900/60 flex items-center justify-between">
+        <button id="modal-play-track-btn" class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xs flex items-center gap-2 shadow-lg shadow-indigo-600/30 transition-all">
+          <i data-lucide="play" class="w-4 h-4"></i>
+          <span>Reproducir esta pista</span>
+        </button>
+        <button id="btn-close-modal-footer" class="px-4 py-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-200 text-xs font-medium transition-colors">
+          Cerrar
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
